@@ -1,13 +1,13 @@
 # Teoría de Números — Un curso para la Licenciatura en Matemáticas
 
-**Autor:** Dr. Pablo Eduardo Cancino Marentes  
-**Institución:** Universidad Autónoma de Nayarit, Unidad Académica de Ciencias Básicas e Ingenierías, Programa Académico de Licenciatura en Matemáticas.  
+**Autor:** Dr. Pablo Eduardo Cancino Marentes
+**Institución:** Universidad Autónoma de Nayarit, Unidad Académica de Ciencias Básicas e Ingenierías, Programa Académico de Licenciatura en Matemáticas.
 
-Este repositorio contiene el texto completo, en formato [mdBook](https://rust-lang.github.io/mdBook/), del curso de *Teoría de Números* (clave CILM318, Plan 2013) de la Licenciatura en Matemáticas de la UAN. El libro cubre las cinco unidades del programa oficial —el anillo de los enteros, primalidad, combinatoria, funciones aritméticas y el anillo de residuos módulo *n*— más una unidad complementaria de temas avanzados (residuos cuadráticos, fracciones continuas, curvas elípticas y criptografía).
+Este repositorio contiene el texto completo, en formato [mdBook](https://rust-lang.github.io/mdBook/), del curso de *Teoría de Números* (clave CILM318, Plan 2024) de la Licenciatura en Matemáticas de la UAN. El libro cubre las cinco unidades del programa oficial —el anillo de los enteros, primalidad, combinatoria, funciones aritméticas y el anillo de residuos módulo *n*— más una unidad complementaria de temas avanzados (residuos cuadráticos, fracciones continuas, curvas elípticas y criptografía).
 
 ## Libro en formato mdBook
 
-Disponible para lectura en línea en:  
+Disponible para lectura en línea en:
 👉 **[https://pabloecancino.github.io/Libro-teoria-de-numeros/](https://pabloecancino.github.io/Libro-teoria-de-numeros/)**
 
 ## Estructura del libro
