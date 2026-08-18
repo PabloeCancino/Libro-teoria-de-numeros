@@ -1,0 +1,10 @@
+# Salida de compilación de mdBook
+/book
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales de editores
+*.swp
+*~
