@@ -1,7 +1,7 @@
 [book]
 title = "Teoría de Números"
 authors = ["Pablo Eduardo Cancino Marentes"]
-description = "Texto de Teoría de Números para la Licenciatura en Matemáticas, basado en el programa CILM318 de la Universidad Autónoma de Nayarit."
+description = "Texto de Teoría de Números para la Licenciatura en Matemáticas, basado en el programa del Plan de Estudios 2024 (PALMAT) de la Universidad Autónoma de Nayarit."
 language = "es"
 src = "src"
 
