@@ -60,7 +60,7 @@ x\equiv1\pmod7
 x\equiv-4\pmod3\\
 x\equiv-4\pmod5
 \end{cases}
-\]
+\\]
 
 Ahora eliminamos redundancias: \\(x\equiv5\pmod3\\) y \\(x\equiv-4\pmod3\\) son la misma condición, pues \\(5\equiv-4\equiv2\pmod3\\); nos quedamos con una sola. También, \\(x\equiv5\pmod8\\) implica \\(x\equiv5\equiv1\pmod4\\), que coincide con la otra condición módulo \\(4\\); eliminamos la redundante. (Si en algún punto hubiéramos encontrado congruencias **incompatibles** en el mismo módulo, el sistema original no tendría solución.) Queda el sistema reducido, ya con módulos coprimos dos a dos:
 \\[
@@ -70,7 +70,7 @@ x\equiv2\pmod3\\
 x\equiv1\pmod7\\
 x\equiv1\pmod5
 \end{cases}
-\]
+\\]
 
 Aplicamos el algoritmo con \\(N=8\cdot3\cdot7\cdot5=840\\):
 

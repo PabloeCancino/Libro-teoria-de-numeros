@@ -18,6 +18,22 @@ A estas cinco unidades se añade una **Unidad 6, complementaria**, que no forma 
 
 Cada sección incluye ejemplos resueltos completamente, y cada unidad cierra con una lista de ejercicios graduada en dificultad. Los apéndices recogen un breve resumen de técnicas de demostración, una tabla de referencia de números primos, y una bibliografía comentada.
 
+## Aplicación interactiva y simuladores computacionales
+
+Para enriquecer el aprendizaje activo y facilitar la experimentación numérica, este texto está articulado con la aplicación web e interactiva **Teoría de Números UAN** (desarrollada bajo la norma técnica institucional *NTE-UAN-APK-001 v1.3*).
+
+La aplicación incluye simuladores dedicados para cada unidad del libro:
+- **Algoritmo de Euclides y Bézout:** Cálculo paso a paso de divisiones sucesivas y obtención formal de la combinación lineal \\(ax + by = \operatorname{mcd}(a,b)\\).
+- **Criba de Eratóstenes:** Animación dinámica del proceso de filtrado de números compuestos y cómputo de la función contadora de primos \\(\pi(N)\\).
+- **Resolutor de Ecuaciones Diofánticas:** Determinación de solubilidad y cálculo de la familia paramétrica general de soluciones enteras.
+- **Calculadora de Funciones Aritméticas:** Descomposición en factores primos y evaluación exacta de \\(d(n)\\), \\(\sigma(n)\\), \\(\varphi(n)\\) y \\(\mu(n)\\).
+- **Reloj Modular y Sistemas de Residuos:** Rueda interactiva para visualización de órbitas, cálculo de inversos modulares y unidades coprimas en \\(\mathbb{Z}/n\mathbb{Z}\\).
+- **Teorema Chino del Resto (CRT):** Resolución analítica detallada de sistemas de congruencias lineales simultáneas.
+- **Simulador de Demostraciones:** Recorrido interactivo y justificado de demostraciones formales clásicas.
+- **Centro de Evaluaciones:** Banco de reactivos formativos por unidad y examen global integrador con retroalimentación KaTeX.
+
+La aplicación está disponible en línea en [https://PabloeCancino.github.io/uan-apk-teoria-de-numeros/](https://PabloeCancino.github.io/uan-apk-teoria-de-numeros/) y su código fuente en el repositorio [uan-apk-teoria-de-numeros](https://github.com/PabloeCancino/uan-apk-teoria-de-numeros).
+
 ## A quién está dirigido
 
 El texto está escrito para estudiantes de licenciatura en matemáticas que ya han cursado álgebra básica y tienen familiaridad con el método axiomático y la demostración formal. No se requiere análisis matemático, salvo en pasajes puntuales de la Unidad 6 donde se señala explícitamente.

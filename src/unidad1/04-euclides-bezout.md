@@ -19,7 +19,7 @@ r_{n-1} &= r_n q_{n+1} + 0. & &
 \\]
 *(El proceso termina en un número finito de pasos porque \\(b>r_1>r_2>\cdots\ge 0\\) es una sucesión estrictamente decreciente de enteros no negativos.) Entonces el último residuo no nulo, \\(r_n\\), es igual a \\(\gcd(a,b)\\).*
 
-*Demostración.* La sucesión \\(b>r_1>r_2>\cdots\) de enteros no negativos no puede decrecer indefinidamente (por el PBO, o simplemente porque hay a lo más \\(b+1\\) enteros en \\([0,b]\\)), así que en algún paso se obtiene residuo \\(0\\); esto justifica que el algoritmo termina.
+*Demostración.* La sucesión \\(b>r_1>r_2>\cdots\\) de enteros no negativos no puede decrecer indefinidamente (por el PBO, o simplemente porque hay a lo más \\(b+1\\) enteros en \\([0,b]\\)), así que en algún paso se obtiene residuo \\(0\\); esto justifica que el algoritmo termina.
 
 Aplicando repetidamente la Proposición 1.19(iii) (\\(\gcd(x,y)=\gcd(y,r)\\) si \\(x=yq+r\\)):
 \\[ \gcd(a,b)=\gcd(b,r_1)=\gcd(r_1,r_2)=\cdots=\gcd(r_{n-1},r_n)=\gcd(r_n,0)=r_n, \\]

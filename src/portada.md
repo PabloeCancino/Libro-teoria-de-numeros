@@ -14,4 +14,14 @@ Este texto desarrolla el contenido de la unidad de aprendizaje *Teoría de Núme
 
 El texto está pensado para acompañar un curso-taller de un semestre (96 horas totales: 32 de teoría, 16 de práctica y 48 de estudio independiente), y cada unidad incluye definiciones, proposiciones con demostración completa, ejemplos resueltos y una lista de ejercicios.
 
+---
+
+### 📱 Aplicación Interactiva y Simuladores de la UAN
+
+Este libro cuenta con una aplicación complementaria oficial de simulación computacional interactiva con algoritmos de Euclides, Criba de Eratóstenes, Ecuaciones Diofánticas, Calculadora de Funciones Aritméticas, Aritmética Modular, Teorema Chino del Residuo y un Centro de Evaluaciones Formativas:
+
+👉 **[Abrir Web App Interactiva](https://PabloeCancino.github.io/uan-apk-teoria-de-numeros/)** | 📥 **[Descargar APK para Android](https://github.com/PabloeCancino/uan-apk-teoria-de-numeros/releases/download/v1.0.0/TeoriaNumeros.apk)** | 💻 **[Repositorio GitHub](https://github.com/PabloeCancino/uan-apk-teoria-de-numeros)**
+
+---
+
 *Versión preliminar — en desarrollo continuo.*

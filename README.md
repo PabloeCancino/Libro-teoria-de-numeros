@@ -1,14 +1,27 @@
 # Teoría de Números — Un curso para la Licenciatura en Matemáticas
 
+[![Libro en Línea](https://img.shields.io/badge/Libro-mdBook%20en%20Línea-orange?style=for-the-badge&logo=mdbook)](https://pabloecancino.github.io/Libro-teoria-de-numeros/)
+[![Ver Web App Interactiva](https://img.shields.io/badge/Web%20App-Simuladores%20Interactivas-blue?style=for-the-badge&logo=githubpages)](https://PabloeCancino.github.io/uan-apk-teoria-de-numeros/)
+[![Descargar APK Android](https://img.shields.io/badge/Descargar-APK%20Android-green?style=for-the-badge&logo=android)](https://github.com/PabloeCancino/uan-apk-teoria-de-numeros/releases/download/v1.0.0/TeoriaNumeros.apk)
+[![Norma](https://img.shields.io/badge/Norma-NTE--UAN--APK--001%20v1.3-purple?style=for-the-badge)](https://github.com/PabloeCancino/uan-apk-plantilla-arquetipo)
+
 **Autor:** Dr. Pablo Eduardo Cancino Marentes  
 **Institución:** Universidad Autónoma de Nayarit, Unidad Académica de Ciencias Básicas e Ingenierías, Programa Académico de Licenciatura en Matemáticas (PALMAT).  
 
 Este repositorio contiene el texto completo, en formato [mdBook](https://rust-lang.github.io/mdBook/), del curso de *Teoría de Números* (clave CBIMAT-256, Plan de Estudios 2024) de la Licenciatura en Matemáticas de la UAN. El libro cubre las cinco unidades del programa oficial —el anillo de los enteros, primalidad, combinatoria, funciones aritméticas y el anillo de residuos módulo *n*— más una unidad complementaria de temas avanzados (residuos cuadráticos, fracciones continuas, curvas elípticas y criptografía).
 
-## Libro en formato mdBook
+## 📖 Libro en formato mdBook
 
 Disponible para lectura en línea en:  
 👉 **[https://pabloecancino.github.io/Libro-teoria-de-numeros/](https://pabloecancino.github.io/Libro-teoria-de-numeros/)**
+
+## 📱 Aplicación Interactiva y Simuladores (APK / Web App)
+
+Este libro de texto está vinculado formal y didácticamente con la aplicación interactiva de modelado y simulación computacional de la UAN:
+
+- **Web App en vivo:** [https://PabloeCancino.github.io/uan-apk-teoria-de-numeros/](https://PabloeCancino.github.io/uan-apk-teoria-de-numeros/)
+- **Repositorio de la App:** [uan-apk-teoria-de-numeros](https://github.com/PabloeCancino/uan-apk-teoria-de-numeros)
+- **Simuladores disponibles:** Algoritmo de Euclides y Bézout paso a paso, Criba de Eratóstenes interactiva, Resolutor de Ecuaciones Diofánticas, Calculadora de Funciones Aritméticas ($d, \sigma, \varphi, \mu$), Reloj y Aritmética Modular, Teorema Chino del Residuo (CRT), Triángulo de Pascal y Simulador de Demostraciones Formales paso a paso.
 
 ## Estructura del libro
 
