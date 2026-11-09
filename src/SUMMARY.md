@@ -52,6 +52,10 @@
 - [6.3 Introducción a las curvas elípticas y a la criptografía](unidad6/03-curvas-elipticas-criptografia.md)
 - [Ejercicios de la Unidad 6](unidad6/ejercicios.md)
 
+# Preparación para el Examen Final
+
+- [Auto-examen semestral](evaluacion/autoexamen-semestral.md)
+
 ---
 
 # Apéndices
