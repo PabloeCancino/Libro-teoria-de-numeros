@@ -3,7 +3,7 @@
 ## El grupo de unidades \\(\mathbb{Z}_n^\ast\\)
 
 **Definición.** Un elemento \\(a\in\mathbb{Z}\\) (o su clase de congruencia módulo \\(n\\)) se llama una **unidad módulo \\(n\\)** si existe \\(b\in\mathbb{Z}\\) tal que \\(ab\equiv1\pmod n\\); a tal \\(b\\) se le llama un **inverso de \\(a\\) módulo \\(n\\)**. El conjunto de las clases de unidades módulo \\(n\\) se denota
-\\[ \mathbb{Z}_n^\ast = \{a\in\{0,1,\dots,n-1\} : a \text{ es unidad módulo } n\}. \\]
+\\[ \mathbb{Z}_n^\ast = \\{a\in\\{0,1,\dots,n-1\\} : a \text{ es unidad módulo } n\\}. \\]
 
 **Proposición 5.22.** *\\(a\\) es unidad módulo \\(n\\) si y solo si \\(\gcd(a,n)=1\\). En consecuencia, \\(|\mathbb{Z}_n^\ast|=\varphi(n)\\), y el inverso de una unidad es único módulo \\(n\\).*
 
@@ -22,12 +22,12 @@ La cardinalidad \\(|\mathbb{Z}_n^\ast|=\varphi(n)\\) es entonces inmediata de la
 *Demostración.* La congruencia \\(ax\equiv b\pmod n\\) tiene solución \\(x\\) si y solo si existe \\(y\in\mathbb{Z}\\) tal que \\(b-ax=ny\\), es decir, si y solo si la ecuación diofántica \\(ax+ny=b\\) tiene solución. Por el Teorema 1.33 (Unidad 1), esto ocurre si y solo si \\(d=\gcd(a,n)\mid b\\).
 
 Supongamos ahora \\(d\mid b\\). Por el Teorema 1.33, todas las soluciones \\(x\\) de \\(ax+ny=b\\) (para algún \\(y\\)) son de la forma
-\\[ x = x_0 + \frac nd\, t, \qquad t\in\mathbb{Z}, \\]
+\\[ x = x_0 + \frac nd\\, t, \qquad t\in\mathbb{Z}, \\]
 donde \\(x_0\\) es una solución particular. Por la Proposición 5.8 (con \\(b\\) ahí sustituido por \\(x_0\\)), los valores \\(x_0, x_0+\frac nd, x_0+2\frac nd,\dots,x_0+(d-1)\frac nd\\) son dos a dos **incongruentes módulo \\(n\\)**, y todo entero de la forma \\(x_0+\frac nd t\\) es congruente módulo \\(n\\) con exactamente uno de ellos. Por tanto, hay exactamente \\(d\\) soluciones incongruentes módulo \\(n\\). \\(\blacksquare\\)
 
 **Corolario 5.25.** *Si \\(\gcd(a,n)=1\\), la congruencia \\(ax\equiv b\pmod n\\) tiene solución única módulo \\(n\\) para cualquier \\(b\\).*
 
-Este corolario justifica formalmente el paso, usado sin demostrar en el Teorema 5.17 (Wilson): la existencia y unicidad del inverso multiplicativo de cada \\(a\in\{1,\dots,p-1\}\\) módulo un primo \\(p\\).
+Este corolario justifica formalmente el paso, usado sin demostrar en el Teorema 5.17 (Wilson): la existencia y unicidad del inverso multiplicativo de cada \\(a\in\\{1,\dots,p-1\\}\\) módulo un primo \\(p\\).
 
 **Ejemplo 5.26.** Resolvamos la congruencia lineal \\(72x\equiv8\pmod{28}\\). Como se calculó en el Ejemplo 1.34 (Unidad 1), \\(d=\gcd(72,28)=4\\), y \\(4\mid8\\), así que la congruencia tiene exactamente \\(4\\) soluciones módulo \\(28\\). Resolviendo la ecuación diofántica asociada \\(72x+28y=8\\) (Ejemplo 1.34), obtuvimos la solución general
 \\[ x=4+7t, \qquad t\in\mathbb{Z}. \\]

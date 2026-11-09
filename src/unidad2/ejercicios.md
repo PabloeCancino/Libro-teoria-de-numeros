@@ -14,7 +14,7 @@
 
 ## Sección 2.2 — Teorema Fundamental de la Aritmética
 
-10. Encuentre la factorización en primos de \\(45\,360\\), \\(N=9699690\\) (el primorial de 19) y \\(2^{10}-1\\).
+10. Encuentre la factorización en primos de \\(45\\,360\\), \\(N=9699690\\) (el primorial de 19) y \\(2^{10}-1\\).
 11. Use el Corolario 2.14 para calcular \\(\gcd(2^4\cdot3^3\cdot7,\ 2^2\cdot3^5\cdot5^2)\\) y su mcm.
 12. Demuestre que \\(\sqrt[3]{2}\\) es irracional, generalizando el argumento de la Proposición 2.17 a raíces cúbicas (o cite y adapte cuidadosamente el resultado análogo).
 13. Demuestre que \\(\log_2 3\\) es irracional.
@@ -25,8 +25,8 @@
 
 ## Sección 2.3 — Factorización
 
-18. Factorice \\(n=8\,051\\) usando el método de Fermat (Proposición 2.22).
-19. Factorice \\(n=1\,000\,003\\) por división por tanteo, aprovechando la Proposición 2.24 para reducir los candidatos.
-20. Explique por qué el método de Fermat es ineficiente para factorizar \\(n=2\cdot 9\,973\\) (con \\(9\,973\\) primo), y factorice este número por división por tanteo en su lugar.
+18. Factorice \\(n=8\\,051\\) usando el método de Fermat (Proposición 2.22).
+19. Factorice \\(n=1\\,000\\,003\\) por división por tanteo, aprovechando la Proposición 2.24 para reducir los candidatos.
+20. Explique por qué el método de Fermat es ineficiente para factorizar \\(n=2\cdot 9\\,973\\) (con \\(9\\,973\\) primo), y factorice este número por división por tanteo en su lugar.
 21. Demuestre que si \\(n\\) es compuesto y no tiene ningún factor primo menor o igual que \\(\sqrt[3]{n}\\), entonces \\(n\\) es producto de exactamente dos primos (posiblemente iguales).
 22. (Proyecto computacional opcional.) Implemente en un lenguaje de su elección la criba de Eratóstenes y el método de factorización de Fermat, y compare experimentalmente sus tiempos de ejecución para factorizar varios números de 6 a 8 dígitos con factores cercanos entre sí, y con factores muy separados.

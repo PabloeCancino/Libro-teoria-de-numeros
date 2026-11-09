@@ -6,7 +6,7 @@
 2. ¿Cuántos números de 4 dígitos (sin ceros a la izquierda) tienen todos sus dígitos distintos?
 3. Un comité de 5 personas debe elegirse de un grupo de 8 hombres y 6 mujeres, con exactamente 2 mujeres. ¿De cuántas maneras puede formarse?
 4. Demuestre, usando el principio del palomar, que entre cualesquiera 13 personas, al menos dos cumplen años en el mismo mes.
-5. Demuestre que entre cualesquiera \\(n+1\\) enteros elegidos del conjunto \\(\{1,2,\dots,2n\}\\), siempre hay dos que son primos relativos. (Sugerencia: agrupe en \\(n\\) parejas de consecutivos \\(\{2k-1,2k\}\\).)
+5. Demuestre que entre cualesquiera \\(n+1\\) enteros elegidos del conjunto \\(\\{1,2,\dots,2n\\}\\), siempre hay dos que son primos relativos. (Sugerencia: agrupe en \\(n\\) parejas de consecutivos \\(\\{2k-1,2k\\}\\).)
 6. Demuestre que \\(\binom{2n}{n}\\) es siempre par para \\(n\ge1\\).
 7. Use el Corolario 2.16 (o un argumento de exponentes de primos) para dar una demostración *aritmética* (no combinatoria) de que \\(\binom nk\\) es siempre un entero.
 

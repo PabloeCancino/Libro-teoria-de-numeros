@@ -13,12 +13,12 @@
 
 ## Sección 4.2 — La función φ de Euler
 
-9. Calcule \\(\varphi(n)\\) para \\(n=100,\ 2\,001,\ 5!\\), usando la fórmula del Teorema 4.14.
+9. Calcule \\(\varphi(n)\\) para \\(n=100,\ 2\\,001,\ 5!\\), usando la fórmula del Teorema 4.14.
 10. Demuestre que \\(\varphi(n)=n/2\\) si y solo si \\(n=2^k\\) para algún \\(k\ge1\\).
 11. Encuentre todos los \\(n\\) tales que \\(\varphi(n)=12\\).
 12. Demuestre que si \\(m\mid n\\), entonces \\(\varphi(m)\mid\varphi(n)\\).
 13. Demuestre que \\(\varphi(n^2)=n\cdot\varphi(n)\\) para todo \\(n\ge1\\).
-14. Dé una demostración directa (sin usar el Teorema Chino del Resto de la Unidad 5) de que la función \\(f(k)=(k\bmod m,\,k\bmod n)\\) del Teorema 4.13 es inyectiva cuando \\(\gcd(m,n)=1\\) y \\(0\le k<mn\\), y concluya que es biyectiva por un argumento de conteo (principio del palomar).
+14. Dé una demostración directa (sin usar el Teorema Chino del Resto de la Unidad 5) de que la función \\(f(k)=(k\bmod m,\\,k\bmod n)\\) del Teorema 4.13 es inyectiva cuando \\(\gcd(m,n)=1\\) y \\(0\le k<mn\\), y concluya que es biyectiva por un argumento de conteo (principio del palomar).
 15. Verifique la identidad de Gauss (Teorema 4.17) para \\(n=30\\), listando explícitamente todos los divisores y sus valores de φ.
 
 ## Sección 4.3 — La función de Möbius
@@ -26,5 +26,5 @@
 16. Calcule \\(\mu(n)\\) para \\(n=1\\) a \\(n=20\\), y tabule los resultados.
 17. Demuestre que \\(\mu(n)\mu(n+1)\mu(n+2)\mu(n+3)=0\\) para todo \\(n\ge1\\). (Sugerencia: entre cuatro enteros consecutivos, alguno es divisible por 4.)
 18. Use la fórmula de inversión de Möbius para expresar \\(d(n)\\) en términos de una suma que involucre a \\(\mu\\), sabiendo que la función constante \\(\mathbf{1}(n)=1\\) satisface \\(d(n)=\sum_{d\mid n}\mathbf1(d)\\).
-19. Demuestre directamente (expandiendo el producto) que \\(n\prod_{p\mid n}(1-1/p) = \sum_{d\mid n}\mu(d)\,(n/d)\\), verificando así la afirmación hecha al final del Ejemplo 4.26.
+19. Demuestre directamente (expandiendo el producto) que \\(n\prod_{p\mid n}(1-1/p) = \sum_{d\mid n}\mu(d)\\,(n/d)\\), verificando así la afirmación hecha al final del Ejemplo 4.26.
 20. (Proyecto.) Investigue la función de Liouville \\(\lambda(n)=(-1)^{\Omega(n)}\\), donde \\(\Omega(n)\\) es el número total de factores primos de \\(n\\) contados con multiplicidad, demuestre que es completamente multiplicativa, y compare su comportamiento con el de \\(\mu(n)\\).

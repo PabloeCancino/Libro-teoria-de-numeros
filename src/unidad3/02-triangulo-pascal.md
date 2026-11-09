@@ -5,7 +5,7 @@
 **Teorema 3.10 (identidad de Pascal).** *Para \\(1\le k\le n-1\\),*
 \\[ \binom{n}{k} = \binom{n-1}{k-1}+\binom{n-1}{k}. \\]
 
-*Demostración (combinatoria).* Sea \\(A\\) un conjunto de \\(n\\) elementos y fijemos un elemento particular \\(a\in A\\). Todo subconjunto \\(B\subseteq A\\) de tamaño \\(k\\) o bien contiene a \\(a\\), o bien no lo contiene. Los subconjuntos de tamaño \\(k\\) que contienen a \\(a\\) están en correspondencia biunívoca con los subconjuntos de tamaño \\(k-1\\) de \\(A\setminus\{a\}\\) (que tiene \\(n-1\\) elementos), y hay \\(\binom{n-1}{k-1}\\) de ellos. Los que no contienen a \\(a\\) son subconjuntos de tamaño \\(k\\) de \\(A\setminus\{a\}\\), y hay \\(\binom{n-1}{k}\\) de ellos. Por la regla de la suma (Proposición 3.1), \\(\binom nk = \binom{n-1}{k-1}+\binom{n-1}k\\). \\(\blacksquare\\)
+*Demostración (combinatoria).* Sea \\(A\\) un conjunto de \\(n\\) elementos y fijemos un elemento particular \\(a\in A\\). Todo subconjunto \\(B\subseteq A\\) de tamaño \\(k\\) o bien contiene a \\(a\\), o bien no lo contiene. Los subconjuntos de tamaño \\(k\\) que contienen a \\(a\\) están en correspondencia biunívoca con los subconjuntos de tamaño \\(k-1\\) de \\(A\setminus\\{a\\}\\) (que tiene \\(n-1\\) elementos), y hay \\(\binom{n-1}{k-1}\\) de ellos. Los que no contienen a \\(a\\) son subconjuntos de tamaño \\(k\\) de \\(A\setminus\\{a\\}\\), y hay \\(\binom{n-1}{k}\\) de ellos. Por la regla de la suma (Proposición 3.1), \\(\binom nk = \binom{n-1}{k-1}+\binom{n-1}k\\). \\(\blacksquare\\)
 
 Esta identidad, junto con \\(\binom n0=\binom nn=1\\), permite calcular todos los coeficientes binomiales recursivamente, disponiéndolos en el **triángulo de Pascal**:
 

@@ -36,4 +36,4 @@ La siguiente tabla lista los 303 números primos menores que 2000, en filas de d
 | 1901 | 1907 | 1913 | 1931 | 1933 | 1949 | 1951 | 1973 | 1979 | 1987 |
 | 1993 | 1997 | 1999 |  |  |  |  |  |  |  |
 
-En total hay 303 primos menores que 2000. Recordemos (Sección 2.1) que, para verificar si un entero \\(n\\) menor que \\(2000^2=4\,000\,000\\) es primo por ensayo de divisiones, basta comprobar su divisibilidad entre los primos de esta tabla menores o iguales a \\(\sqrt{n}\\) (Corolario 2.8).
+En total hay 303 primos menores que 2000. Recordemos (Sección 2.1) que, para verificar si un entero \\(n\\) menor que \\(2000^2=4\\,000\\,000\\) es primo por ensayo de divisiones, basta comprobar su divisibilidad entre los primos de esta tabla menores o iguales a \\(\sqrt{n}\\) (Corolario 2.8).

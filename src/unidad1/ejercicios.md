@@ -26,7 +26,7 @@
 16. Calcule \\(\gcd(1071,462)\\) y exprese el resultado como combinación lineal entera de \\(1071\\) y \\(462\\).
 17. Demuestre que si \\(\gcd(a,b)=1\\) y \\(\gcd(a,c)=1\\), entonces \\(\gcd(a,bc)=1\\).
 18. Demuestre que \\(\gcd(a,a+2)\\) es \\(1\\) si \\(a\\) es impar, y \\(2\\) si \\(a\\) es par.
-19. Demuestre que \\(\gcd(2a+1,\,9a+4)=1\\) para todo entero \\(a\\).
+19. Demuestre que \\(\gcd(2a+1,\\,9a+4)=1\\) para todo entero \\(a\\).
 20. Sean \\(a,b\\) enteros positivos con \\(\gcd(a,b)=d\\). Demuestre que \\(\gcd(a/d,b/d)=1\\) sin usar la identidad de Bézout (es decir, directamente de la definición de mcd).
 21. Calcule \\(\mathrm{mcm}(24,36)\\) y \\(\mathrm{mcm}(17,25)\\).
 22. Demuestre que para tres enteros positivos \\(a,b,c\\), en general **no** se cumple que \\(\gcd(a,b,c)\cdot\mathrm{mcm}(a,b,c)=abc\\). Encuentre un contraejemplo explícito.
@@ -38,7 +38,7 @@
 25. Use el algoritmo de Euclides extendido (tabla de la Observación 1.29) para encontrar \\(x,y\\) enteros tales que \\(841x+160y=\gcd(841,160)\\).
 26. Demuestre que si \\(a=bq+r\\), los coeficientes de Bézout de \\((a,b)\\) pueden obtenerse a partir de los de \\((b,r)\\): si \\(\gcd(b,r)=bx'+ry'\\), entonces \\(\gcd(a,b)=bx'+ (a-bq)y' = ay'+b(x'-qy')\\).
 27. Demuestre que el número de pasos del algoritmo de Euclides aplicado a dos números de Fibonacci consecutivos \\(F_{n+1}>F_n\\) es exactamente \\(n-1\\).
-28. Sea \\(d=\gcd(a,b)\\). Demuestre que el conjunto de **todos** los pares \\((x,y)\\) que satisfacen \\(ax+by=d\\) es \\(\{(x_0+\tfrac{b}{d}t,\ y_0-\tfrac{a}{d}t) : t\in\mathbb{Z}\}\\), donde \\((x_0,y_0)\\) es una solución particular (esto es un caso particular del Teorema 1.33 con \\(c=d\\); redemuéstrelo directamente).
+28. Sea \\(d=\gcd(a,b)\\). Demuestre que el conjunto de **todos** los pares \\((x,y)\\) que satisfacen \\(ax+by=d\\) es \\(\\{(x_0+\tfrac{b}{d}t,\ y_0-\tfrac{a}{d}t) : t\in\mathbb{Z}\\}\\), donde \\((x_0,y_0)\\) es una solución particular (esto es un caso particular del Teorema 1.33 con \\(c=d\\); redemuéstrelo directamente).
 
 ## Sección 1.5 — Ecuaciones diofánticas
 

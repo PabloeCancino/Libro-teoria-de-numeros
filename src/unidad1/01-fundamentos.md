@@ -12,7 +12,7 @@ Toda la teoría de números se construye, en última instancia, sobre el conjunt
 4. Si \\(S(m) = S(n)\\), entonces \\(m = n\\) (el sucesor es inyectivo).
 5. **(Axioma de inducción.)** Si \\(A \subseteq \mathbb{N}\\) satisface (i) \\(0 \in A\\) y (ii) \\(n \in A \Rightarrow S(n) \in A\\), entonces \\(A = \mathbb{N}\\).
 
-Intuitivamente, \\(S(n) = n+1\\); los axiomas 1-4 garantizan que \\(\mathbb{N} = \{0, S(0), S(S(0)), \dots\} = \{0,1,2,3,\dots\}\\) es una sucesión sin repeticiones que comienza en \\(0\\) y no tiene "vueltas". El quinto axioma, el de inducción, es el que dota a \\(\mathbb{N}\\) de su fuerza demostrativa y es, junto con el principio del buen orden que veremos a continuación, la herramienta central de todo el curso.
+Intuitivamente, \\(S(n) = n+1\\); los axiomas 1-4 garantizan que \\(\mathbb{N} = \\{0, S(0), S(S(0)), \dots\\} = \\{0,1,2,3,\dots\\}\\) es una sucesión sin repeticiones que comienza en \\(0\\) y no tiene "vueltas". El quinto axioma, el de inducción, es el que dota a \\(\mathbb{N}\\) de su fuerza demostrativa y es, junto con el principio del buen orden que veremos a continuación, la herramienta central de todo el curso.
 
 A partir de estos axiomas se definen recursivamente la suma (\\(a + 0 = a\\), \\(a + S(b) = S(a+b)\\)) y el producto (\\(a \cdot 0 = 0\\), \\(a \cdot S(b) = a\cdot b + a\\)), y se demuestran —aunque no lo haremos aquí, por ser objeto de un curso de fundamentos— las propiedades algebraicas usuales: asociatividad, conmutatividad, distributividad, cancelación, y la existencia de un orden total \\(\le\\) compatible con ellas. En este texto damos por conocidas estas propiedades y las usaremos libremente, junto con la extensión de \\(\mathbb{N}\\) al anillo \\(\mathbb{Z}\\) de los enteros mediante la adjunción de los inversos aditivos.
 
@@ -27,7 +27,7 @@ El axioma de inducción se traduce, en la práctica demostrativa, en el siguient
 
 *Entonces \\(P(n)\\) es verdadera para todo \\(n \ge 1\\) (respectivamente, para todo \\(n \ge 0\\)).*
 
-*Demostración.* Sea \\(A = \{n \in \mathbb{Z}^+ : P(n) \text{ es verdadera}\}\\). Por la hipótesis (1), \\(1 \in A\\). Por la hipótesis (2), si \\(k \in A\\) entonces \\(k+1 \in A\\). Por el axioma de inducción (aplicado a \\(\mathbb{Z}^+\\), que es una copia de \\(\mathbb{N}\\) desplazada en 1), se concluye \\(A = \mathbb{Z}^+\\), es decir, \\(P(n)\\) es verdadera para todo \\(n \ge 1\\). \\(\blacksquare\\)
+*Demostración.* Sea \\(A = \\{n \in \mathbb{Z}^+ : P(n) \text{ es verdadera}\\}\\). Por la hipótesis (1), \\(1 \in A\\). Por la hipótesis (2), si \\(k \in A\\) entonces \\(k+1 \in A\\). Por el axioma de inducción (aplicado a \\(\mathbb{Z}^+\\), que es una copia de \\(\mathbb{N}\\) desplazada en 1), se concluye \\(A = \mathbb{Z}^+\\), es decir, \\(P(n)\\) es verdadera para todo \\(n \ge 1\\). \\(\blacksquare\\)
 
 A la hipótesis "\\(P(k)\\) es verdadera" en el paso inductivo se le llama **hipótesis de inducción**.
 
@@ -77,14 +77,14 @@ El resultado más importante de esta sección es que, sobre la base de los demá
 
 *Base.* Si \\(0 \in S\\), entonces \\(0\\) sería el mínimo de \\(S\\) (pues \\(0 \le n\\) para todo \\(n \in \mathbb{N}\\)), contradiciendo la suposición. Luego \\(0 \notin S\\), es decir, \\(P(0)\\) es verdadera.
 
-*Paso inductivo.* Supongamos que \\(P(0), P(1), \dots, P(k)\\) son todas verdaderas, es decir, ninguno de \\(0, 1, \dots, k\\) pertenece a \\(S\\). Si \\(k+1 \in S\\), entonces \\(k+1\\) sería el elemento mínimo de \\(S\\) (ya que todo elemento menor, es decir, todo elemento de \\(\{0,\dots,k\}\\), no está en \\(S\\)), lo cual contradice la suposición. Luego \\(k+1 \notin S\\), es decir, \\(P(k+1)\\) es verdadera.
+*Paso inductivo.* Supongamos que \\(P(0), P(1), \dots, P(k)\\) son todas verdaderas, es decir, ninguno de \\(0, 1, \dots, k\\) pertenece a \\(S\\). Si \\(k+1 \in S\\), entonces \\(k+1\\) sería el elemento mínimo de \\(S\\) (ya que todo elemento menor, es decir, todo elemento de \\(\\{0,\dots,k\\}\\), no está en \\(S\\)), lo cual contradice la suposición. Luego \\(k+1 \notin S\\), es decir, \\(P(k+1)\\) es verdadera.
 
 Por el Teorema 1.4, \\(P(n)\\) es verdadera para todo \\(n\\), es decir, \\(S \cap \mathbb{N} = \emptyset\\), luego \\(S = \emptyset\\). Esto contradice que \\(S\\) es no vacío. La contradicción muestra que \\(S\\) sí tiene un mínimo. \\(\blacksquare\\)
 
 **Teorema 1.6.** *El principio del buen orden implica el principio de inducción matemática.*
 
 *Demostración.* Sea \\(P(n)\\) una proposición sobre \\(\mathbb{N}\\) que satisface la base \\(P(0)\\) y el paso inductivo \\(P(k) \Rightarrow P(k+1)\\). Sea
-\\[ S = \{n \in \mathbb{N} : P(n) \text{ es falsa}\}. \\]
+\\[ S = \\{n \in \mathbb{N} : P(n) \text{ es falsa}\\}. \\]
 Queremos ver \\(S = \emptyset\\). Supongamos, por reducción al absurdo, que \\(S \neq \emptyset\\). Por el PBO, \\(S\\) tiene un elemento mínimo \\(m\\). Como \\(P(0)\\) es verdadera, \\(0 \notin S\\), luego \\(m \ge 1\\), y por tanto \\(m - 1 \in \mathbb{N}\\). Como \\(m\\) es el mínimo de \\(S\\), \\(m - 1 \notin S\\), es decir, \\(P(m-1)\\) es verdadera. Por el paso inductivo (aplicado a \\(k = m-1\\)), \\(P(m)\\) es verdadera, es decir, \\(m \notin S\\). Esto contradice que \\(m \in S\\). Luego \\(S = \emptyset\\) y \\(P(n)\\) es verdadera para todo \\(n \in \mathbb{N}\\). \\(\blacksquare\\)
 
 En conjunto, los Teoremas 1.5 y 1.6 muestran la equivalencia buscada:
@@ -92,6 +92,6 @@ En conjunto, los Teoremas 1.5 y 1.6 muestran la equivalencia buscada:
 
 Ambos principios reaparecerán constantemente: la inducción como técnica demostrativa directa, y el buen orden como herramienta para garantizar la **existencia** de objetos mínimos (el cociente y residuo en el algoritmo de la división, el máximo común divisor, el menor divisor primo, etc.), típicamente por reducción al absurdo tomando el elemento mínimo de un conjunto de "contraejemplos" o de "candidatos".
 
-**Ejemplo 1.7 (uso del buen orden).** No existe ningún entero \\(n\\) con \\(0 < n < 1\\). En efecto, si el conjunto \\(S = \{n \in \mathbb{Z}^+ : n < 1\}\\) fuera no vacío, por el PBO tendría un mínimo \\(m\\), con \\(0 < m < 1\\). Pero entonces \\(0 < m^2 < m < 1\\) (pues \\(0<m<1\\)), y \\(m^2 \in \mathbb{Z}^+\\) sería un elemento de \\(S\\) menor que \\(m\\), contradiciendo la minimalidad de \\(m\\). Luego \\(S = \emptyset\\).
+**Ejemplo 1.7 (uso del buen orden).** No existe ningún entero \\(n\\) con \\(0 < n < 1\\). En efecto, si el conjunto \\(S = \\{n \in \mathbb{Z}^+ : n < 1\\}\\) fuera no vacío, por el PBO tendría un mínimo \\(m\\), con \\(0 < m < 1\\). Pero entonces \\(0 < m^2 < m < 1\\) (pues \\(0<m<1\\)), y \\(m^2 \in \mathbb{Z}^+\\) sería un elemento de \\(S\\) menor que \\(m\\), contradiciendo la minimalidad de \\(m\\). Luego \\(S = \emptyset\\).
 
 Este hecho, aparentemente trivial, es la base de numerosos argumentos de "descenso infinito" que usaremos más adelante (por ejemplo, en la demostración de la irracionalidad de \\(\sqrt{2}\\) o en ciertos argumentos sobre ecuaciones diofánticas).

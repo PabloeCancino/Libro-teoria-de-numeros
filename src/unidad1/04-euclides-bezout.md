@@ -9,11 +9,11 @@ La idea es la Proposición 1.19(iii): \\(\gcd(a,b) = \gcd(b,r)\\) si \\(a=bq+r\\
 **Teorema 1.25 (Algoritmo de Euclides).** *Sean \\(a,b \in \mathbb{Z}^+\\), \\(a \geq b\\). Defínase la sucesión de divisiones sucesivas:*
 \\[
 \begin{aligned}
-a &= bq_1 + r_1, & 0 &\le r_1 < b,\\
-b &= r_1q_2 + r_2, & 0 &\le r_2 < r_1,\\
-r_1 &= r_2q_3+r_3, & 0&\le r_3<r_2,\\
-&\ \ \vdots & &\\
-r_{n-2} &= r_{n-1}q_n + r_n, & 0&\le r_n < r_{n-1},\\
+a &= bq_1 + r_1, & 0 &\le r_1 < b,\\\\
+b &= r_1q_2 + r_2, & 0 &\le r_2 < r_1,\\\\
+r_1 &= r_2q_3+r_3, & 0&\le r_3<r_2,\\\\
+&\ \ \vdots & &\\\\
+r_{n-2} &= r_{n-1}q_n + r_n, & 0&\le r_n < r_{n-1},\\\\
 r_{n-1} &= r_n q_{n+1} + 0. & &
 \end{aligned}
 \\]
@@ -28,8 +28,8 @@ donde la última igualdad usa la Proposición 1.19(ii). \\(\blacksquare\\)
 **Ejemplo 1.26.** Calculemos \\(\gcd(252,105)\\):
 \\[
 \begin{aligned}
-252 &= 105\cdot 2 + 42\\
-105 &= 42\cdot 2 + 21\\
+252 &= 105\cdot 2 + 42\\\\
+105 &= 42\cdot 2 + 21\\\\
 42 &= 21 \cdot 2 + 0
 \end{aligned}
 \\]

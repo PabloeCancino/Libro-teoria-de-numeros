@@ -11,7 +11,7 @@ La multiplicatividad es la propiedad estructural más importante de esta unidad:
 **Proposición 4.1.** *Si \\(f\\) es multiplicativa y \\(n=p_1^{e_1}\cdots p_r^{e_r}\\) es la factorización en primos de \\(n>1\\), entonces*
 \\[ f(n) = f(p_1^{e_1})f(p_2^{e_2})\cdots f(p_r^{e_r}). \\]
 
-*Demostración.* Por inducción sobre \\(r\\). Para \\(r=1\\) es trivial. Si vale para \\(r-1\\) factores, como \\(\gcd(p_1^{e_1}\cdots p_{r-1}^{e_{r-1}},\, p_r^{e_r})=1\\) (primos distintos, Proposición 2.6), la multiplicatividad da
+*Demostración.* Por inducción sobre \\(r\\). Para \\(r=1\\) es trivial. Si vale para \\(r-1\\) factores, como \\(\gcd(p_1^{e_1}\cdots p_{r-1}^{e_{r-1}},\\, p_r^{e_r})=1\\) (primos distintos, Proposición 2.6), la multiplicatividad da
 \\[ f(n) = f(p_1^{e_1}\cdots p_{r-1}^{e_{r-1}})\cdot f(p_r^{e_r}) = f(p_1^{e_1})\cdots f(p_{r-1}^{e_{r-1}})\cdot f(p_r^{e_r}), \\]
 usando la hipótesis de inducción en el segundo paso. \\(\blacksquare\\)
 
@@ -70,7 +70,7 @@ es decir, \\(n\\) es perfecto. \\(\blacksquare\\)
 **Teorema 4.10 (Euler, recíproco parcial).** *Todo número perfecto **par** es de la forma \\(2^{k-1}(2^k-1)\\) con \\(2^k-1\\) primo.*
 
 *Demostración.* Sea \\(n\\) par y perfecto; escribamos \\(n=2^{k-1}m\\) con \\(k\ge2\\) y \\(m\\) impar. Como \\(\gcd(2^{k-1},m)=1\\), la multiplicatividad de \\(\sigma\\) da \\(\sigma(n)=\sigma(2^{k-1})\sigma(m)=(2^k-1)\sigma(m)\\). Como \\(n\\) es perfecto, \\(\sigma(n)=2n=2^k m\\), así que
-\\[ (2^k-1)\sigma(m) = 2^k m. \tag{$\ast$} \\]
+\\[ (2^k-1)\sigma(m) = 2^k m. \tag{\*} \\]
 Como \\(\gcd(2^k-1,2^k)=1\\) (enteros consecutivos), de \\((\ast)\\) y el Lema de Euclides (Proposición 1.19(vi)) se sigue \\((2^k-1)\mid m\\); escribamos \\(m=(2^k-1)c\\). Sustituyendo en \\((\ast)\\) y cancelando \\((2^k-1)\\) (que es distinto de cero): \\(\sigma(m)=2^kc\\).
 
 Si \\(c>1\\), entonces \\(1\\), \\(c\\) y \\(m=(2^k-1)c\\) serían tres divisores **distintos** de \\(m\\) (distintos porque \\(k\ge2\\) implica \\(2^k-1\ge3>1\\)), así que \\(\sigma(m)\ge1+c+m = 1+c+(2^k-1)c = 1+2^kc\\), lo que junto con \\(\sigma(m)=2^kc\\) daría \\(2^kc \ge 1+2^kc\\), absurdo. Luego \\(c=1\\), es decir, \\(m=2^k-1\\) y \\(\sigma(m)=2^k=m+1\\). Pero \\(\sigma(m)=m+1\\) para \\(m>1\\) significa exactamente que los únicos divisores positivos de \\(m\\) son \\(1\\) y \\(m\\), es decir, que \\(m=2^k-1\\) es primo. Por tanto \\(n=2^{k-1}m=2^{k-1}(2^k-1)\\) con \\(2^k-1\\) primo. \\(\blacksquare\\)

@@ -6,11 +6,11 @@ El TFA garantiza que la factorización en primos existe y es única, pero no dic
 
 El método más directo se sigue inmediatamente del Corolario 2.8: para factorizar \\(n\\), se prueba a dividir sucesivamente entre \\(2,3,5,7,11,\dots\\) (los primos en orden creciente), extrayendo cada factor primo tantas veces como sea posible antes de pasar al siguiente, y deteniéndose cuando el cociente restante es \\(1\\) o es menor que el cuadrado del último primo probado (en cuyo caso el cociente restante, si es mayor que 1, es primo).
 
-**Ejemplo 2.20.** Factoricemos \\(n=2\,310\\):
+**Ejemplo 2.20.** Factoricemos \\(n=2\\,310\\):
 \\[ 2310 = 2\cdot1155 = 2\cdot3\cdot385=2\cdot3\cdot5\cdot77=2\cdot3\cdot5\cdot7\cdot11. \\]
-Como el cociente final \\(11\\) es primo, la factorización es \\(2310=2\cdot3\cdot5\cdot7\cdot11\\) (el producto de los primeros cinco primos —de hecho, \\(2310\\) es conocido como el "primorial" \\(11\#\\)).
+Como el cociente final \\(11\\) es primo, la factorización es \\(2310=2\cdot3\cdot5\cdot7\cdot11\\) (el producto de los primeros cinco primos —de hecho, \\(2310\\) es conocido como el "primorial" \\(11\\#\\)).
 
-**Ejemplo 2.21.** Factoricemos \\(n=9\,409\\). Como \\(\sqrt{9409}=97\\), basta probar primos hasta \\(97\\). Ninguno de \\(2,3,5,7,\dots,89\\) divide a \\(9409\\) (se deja la verificación al lector), pero \\(97^2=9409\\), así que \\(9409=97^2\\).
+**Ejemplo 2.21.** Factoricemos \\(n=9\\,409\\). Como \\(\sqrt{9409}=97\\), basta probar primos hasta \\(97\\). Ninguno de \\(2,3,5,7,\dots,89\\) divide a \\(9409\\) (se deja la verificación al lector), pero \\(97^2=9409\\), así que \\(9409=97^2\\).
 
 ## El método de factorización de Fermat
 

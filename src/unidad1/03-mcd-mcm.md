@@ -7,9 +7,9 @@
 La existencia de este máximo no es evidente por sí sola —requiere justificación— y la damos a continuación usando el buen orden. De paso obtenemos la caracterización más importante del máximo común divisor: es una combinación lineal entera de \\(a\\) y \\(b\\).
 
 **Teorema 1.16 (Existencia del mcd).** *Sean \\(a,b \in \mathbb{Z}\\), no ambos cero. Existe \\(d = \gcd(a,b)\\), y además \\(d\\) es el menor entero positivo que se puede escribir como combinación lineal entera de \\(a\\) y \\(b\\), es decir,*
-\\[ d = \min\{ax+by : x,y\in\mathbb{Z},\ ax+by>0\}. \\]
+\\[ d = \min\\{ax+by : x,y\in\mathbb{Z},\ ax+by>0\\}. \\]
 
-*Demostración.* Sea \\(C = \{ax+by : x,y \in \mathbb{Z}\} \cap \mathbb{Z}^+\\). Como no ambos de \\(a,b\\) son cero, digamos \\(a \neq 0\\); entonces \\(a\cdot a + b \cdot 0 = a^2 > 0\\) pertenece a \\(C\\) (tomando \\(x=a,y=0\\)), luego \\(C \neq \emptyset\\). Por el Principio del Buen Orden, \\(C\\) tiene un elemento mínimo \\(d = ax_0+by_0\\), para ciertos \\(x_0,y_0 \in \mathbb{Z}\\).
+*Demostración.* Sea \\(C = \\{ax+by : x,y \in \mathbb{Z}\\} \cap \mathbb{Z}^+\\). Como no ambos de \\(a,b\\) son cero, digamos \\(a \neq 0\\); entonces \\(a\cdot a + b \cdot 0 = a^2 > 0\\) pertenece a \\(C\\) (tomando \\(x=a,y=0\\)), luego \\(C \neq \emptyset\\). Por el Principio del Buen Orden, \\(C\\) tiene un elemento mínimo \\(d = ax_0+by_0\\), para ciertos \\(x_0,y_0 \in \mathbb{Z}\\).
 
 *Afirmación: \\(d \mid a\\) y \\(d \mid b\\).* Dividimos \\(a\\) entre \\(d\\) (Teorema 1.12): \\(a = dq+r\\), \\(0 \le r < d\\). Entonces
 \\[ r = a - dq = a - (ax_0+by_0)q = a(1-x_0q) + b(-y_0q), \\]
@@ -36,7 +36,7 @@ Esto es exactamente lo demostrado en el Teorema 1.16; en la Sección 1.4 daremos
 1. *\\(\gcd(a,b) = \gcd(b,a) = \gcd(|a|,|b|)\\).*
 2. *\\(\gcd(a,0) = |a|\\) para \\(a \neq 0\\).*
 3. *\\(\gcd(a,b) = \gcd(a, b+ka)\\) para todo \\(k \in \mathbb{Z}\\). En particular, \\(\gcd(a,b)=\gcd(a,b-a)\\) y, si \\(b=aq+r\\), \\(\gcd(a,b)=\gcd(a,r)\\).*
-4. *(Existencia de "mcd normalizado") Si \\(d=\gcd(a,b)\\), entonces \\(\gcd(a/d,\,b/d)=1\\).*
+4. *(Existencia de "mcd normalizado") Si \\(d=\gcd(a,b)\\), entonces \\(\gcd(a/d,\\,b/d)=1\\).*
 5. *Si \\(c>0\\), \\(\gcd(ca,cb) = c\gcd(a,b)\\).*
 6. *(Lema de Euclides) Si \\(\gcd(a,b)=1\\) y \\(a \mid bc\\), entonces \\(a \mid c\\).*
 7. *Si \\(a \mid c\\), \\(b \mid c\\) y \\(\gcd(a,b)=1\\), entonces \\(ab \mid c\\).*

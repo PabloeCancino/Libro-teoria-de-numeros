@@ -8,7 +8,7 @@ Ya nos hemos encontrado con la pregunta de si \\(x^2\equiv-1\pmod p\\) tiene sol
 
 **Definición.** Sea \\(p\\) un primo impar y \\(a\\) un entero con \\(p\nmid a\\). Decimos que \\(a\\) es un **residuo cuadrático módulo \\(p\\)** si la congruencia \\(x^2\equiv a\pmod p\\) tiene solución, y un **no residuo cuadrático** en caso contrario. El **símbolo de Legendre** se define como
 \\[
-\left(\frac ap\right) = \begin{cases} 1 & \text{si } a \text{ es residuo cuadrático módulo } p,\\ -1 & \text{si } a \text{ es no residuo cuadrático módulo } p,\\ 0 & \text{si } p\mid a. \end{cases}
+\left(\frac ap\right) = \begin{cases} 1 & \text{si } a \text{ es residuo cuadrático módulo } p,\\\\ -1 & \text{si } a \text{ es no residuo cuadrático módulo } p,\\\\ 0 & \text{si } p\mid a. \end{cases}
 \\]
 
 **Proposición 6.1.** *Entre los residuos \\(1,2,\dots,p-1\\), exactamente \\(\frac{p-1}2\\) son residuos cuadráticos y \\(\frac{p-1}2\\) son no residuos.*
@@ -26,7 +26,7 @@ Si \\(a\\) es residuo cuadrático, \\(a\equiv b^2\pmod p\\) para algún \\(b\\) 
 
 **Corolario 6.3.** *El símbolo de Legendre es completamente multiplicativo en el numerador: \\(\left(\frac{ab}p\right)=\left(\frac ap\right)\left(\frac bp\right)\\).*
 
-*Demostración.* Inmediato del Teorema 6.2: \\((ab)^{(p-1)/2}=a^{(p-1)/2}b^{(p-1)/2}\\), y ambos lados de \\(\left(\frac{ab}p\right)\equiv\left(\frac ap\right)\left(\frac bp\right)\pmod p\\) están en \\(\{-1,0,1\}\\) con \\(p\ge3\\), así que la congruencia implica igualdad. \\(\blacksquare\\)
+*Demostración.* Inmediato del Teorema 6.2: \\((ab)^{(p-1)/2}=a^{(p-1)/2}b^{(p-1)/2}\\), y ambos lados de \\(\left(\frac{ab}p\right)\equiv\left(\frac ap\right)\left(\frac bp\right)\pmod p\\) están en \\(\\{-1,0,1\\}\\) con \\(p\ge3\\), así que la congruencia implica igualdad. \\(\blacksquare\\)
 
 **Corolario 6.4 (primera ley complementaria).** *\\(\left(\dfrac{-1}p\right)=1\\) si \\(p\equiv1\pmod4\\), y \\(\left(\dfrac{-1}p\right)=-1\\) si \\(p\equiv3\pmod4\\).*
 
@@ -52,7 +52,7 @@ El siguiente es uno de los teoremas más célebres de toda la teoría de número
 *Equivalentemente, \\(\left(\frac pq\right)=\left(\frac qp\right)\\) salvo cuando \\(p\equiv q\equiv3\pmod4\\), en cuyo caso \\(\left(\frac pq\right)=-\left(\frac qp\right)\\).*
 
 *Sobre la demostración.* Presentamos aquí solo el esquema de la demostración de Eisenstein (una de las más elegantes, basada en conteo de puntos reticulares), remitiendo a la bibliografía de la Unidad 6 (Apéndice C) para los detalles completos, pues un desarrollo íntegro requeriría un espacio considerablemente mayor al de esta sección introductoria. La idea central: combinando el Lema de Gauss con un argumento geométrico de conteo de puntos con coordenadas enteras dentro de un rectángulo de lados \\(\frac{p-1}2\\) y \\(\frac{q-1}2\\), dividido por la recta \\(qx=py\\), se muestra que
-\\[ \nu_p + \nu_q \equiv \#\{(x,y)\in\mathbb{Z}^2 : 1\le x\le \tfrac{p-1}2,\ 1\le y\le\tfrac{q-1}2\} = \frac{p-1}2\cdot\frac{q-1}2 \pmod 2, \\]
+\\[ \nu_p + \nu_q \equiv \\#\\{(x,y)\in\mathbb{Z}^2 : 1\le x\le \tfrac{p-1}2,\ 1\le y\le\tfrac{q-1}2\\} = \frac{p-1}2\cdot\frac{q-1}2 \pmod 2, \\]
 donde \\(\nu_p,\nu_q\\) son los conteos del Lema 6.5 aplicados respectivamente a \\(q\bmod p\\) y a \\(p\bmod q\\); esto da \\(\left(\frac qp\right)\left(\frac pq\right)=(-1)^{\nu_p+\nu_q}=(-1)^{\frac{p-1}2\cdot\frac{q-1}2}\\).
 
 **Ejemplo 6.8.** Calculemos \\(\left(\dfrac{219}{383}\right)\\) (\\(383\\) es primo). Factorizando \\(219=3\times73\\), por el Corolario 6.3:

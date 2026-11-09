@@ -5,9 +5,9 @@ La Proposición 5.24 nos dice que toda congruencia lineal \\(ax\equiv b\pmod n\\
 **Teorema 5.27 (Teorema Chino del Resto).** *Sean \\(n_1,n_2,\dots,n_r\\) enteros positivos primos relativos dos a dos. Entonces el sistema de congruencias*
 \\[
 \begin{cases}
-x\equiv a_1 \pmod{n_1}\\
-x\equiv a_2 \pmod{n_2}\\
-\quad\vdots\\
+x\equiv a_1 \pmod{n_1}\\\\
+x\equiv a_2 \pmod{n_2}\\\\
+\quad\vdots\\\\
 x\equiv a_r \pmod{n_r}
 \end{cases}
 \\]
@@ -38,8 +38,8 @@ La demostración es **constructiva**: proporciona un algoritmo explícito para h
 **Ejemplo 5.28.** Ilustramos el algoritmo, junto con la técnica de **reducción previa** cuando los módulos originales no son coprimos entre sí, resolviendo el sistema
 \\[
 \begin{cases}
-x\equiv5\pmod{24}\\
-x\equiv1\pmod{28}\\
+x\equiv5\pmod{24}\\\\
+x\equiv1\pmod{28}\\\\
 x\equiv-4\pmod{15}
 \end{cases}
 \\]
@@ -47,17 +47,17 @@ x\equiv-4\pmod{15}
 Como \\(\gcd(24,28)=4\ne1\\), no estamos aún en las hipótesis del Teorema 5.27. Descomponemos cada módulo en potencias de primos (\\(24=8\cdot3\\), \\(28=4\cdot7\\), \\(15=3\cdot5\\)) y usamos la Proposición 5.7 para sustituir cada congruencia por el sistema equivalente módulo cada potencia prima:
 \\[
 \begin{cases}
-x\equiv5\pmod8\\
+x\equiv5\pmod8\\\\
 x\equiv5\pmod3
 \end{cases}
 \qquad
 \begin{cases}
-x\equiv1\pmod4\\
+x\equiv1\pmod4\\\\
 x\equiv1\pmod7
 \end{cases}
 \qquad
 \begin{cases}
-x\equiv-4\pmod3\\
+x\equiv-4\pmod3\\\\
 x\equiv-4\pmod5
 \end{cases}
 \\]
@@ -65,9 +65,9 @@ x\equiv-4\pmod5
 Ahora eliminamos redundancias: \\(x\equiv5\pmod3\\) y \\(x\equiv-4\pmod3\\) son la misma condición, pues \\(5\equiv-4\equiv2\pmod3\\); nos quedamos con una sola. También, \\(x\equiv5\pmod8\\) implica \\(x\equiv5\equiv1\pmod4\\), que coincide con la otra condición módulo \\(4\\); eliminamos la redundante. (Si en algún punto hubiéramos encontrado congruencias **incompatibles** en el mismo módulo, el sistema original no tendría solución.) Queda el sistema reducido, ya con módulos coprimos dos a dos:
 \\[
 \begin{cases}
-x\equiv5\pmod8\\
-x\equiv2\pmod3\\
-x\equiv1\pmod7\\
+x\equiv5\pmod8\\\\
+x\equiv2\pmod3\\\\
+x\equiv1\pmod7\\\\
 x\equiv1\pmod5
 \end{cases}
 \\]

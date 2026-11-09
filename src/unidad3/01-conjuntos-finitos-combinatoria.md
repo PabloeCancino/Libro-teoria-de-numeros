@@ -4,11 +4,11 @@ La combinatoria elemental —el arte de contar— es una herramienta indispensab
 
 ## Conjuntos finitos y la regla del producto
 
-**Definición.** Un conjunto \\(A\\) es **finito** si existe \\(n\in\mathbb{N}\\) y una biyección \\(f:\{1,\dots,n\}\to A\\) (con la convención de que \\(\{1,\dots,0\}=\emptyset\\) corresponde a \\(A=\emptyset\\)). El único tal \\(n\\) (su unicidad se sigue del principio del palomar, discutido más abajo) se llama **cardinalidad** de \\(A\\) y se denota \\(|A|\\).
+**Definición.** Un conjunto \\(A\\) es **finito** si existe \\(n\in\mathbb{N}\\) y una biyección \\(f:\\{1,\dots,n\\}\to A\\) (con la convención de que \\(\\{1,\dots,0\\}=\emptyset\\) corresponde a \\(A=\emptyset\\)). El único tal \\(n\\) (su unicidad se sigue del principio del palomar, discutido más abajo) se llama **cardinalidad** de \\(A\\) y se denota \\(|A|\\).
 
 **Proposición 3.1 (regla de la suma).** *Si \\(A\\) y \\(B\\) son conjuntos finitos disjuntos (\\(A\cap B=\emptyset\\)), entonces \\(|A\cup B|=|A|+|B|\\). Más generalmente, si \\(A_1,\dots,A_k\\) son conjuntos finitos, disjuntos dos a dos, \\(|A_1\cup\cdots\cup A_k|=|A_1|+\cdots+|A_k|\\).*
 
-**Proposición 3.2 (regla del producto).** *Si \\(A\\) y \\(B\\) son conjuntos finitos, el producto cartesiano \\(A\times B=\{(a,b):a\in A,b\in B\}\\) satisface \\(|A\times B|=|A|\cdot|B|\\). Más generalmente, si un objeto se construye eligiendo sucesivamente un elemento de un conjunto de \\(n_1\\) opciones, luego uno de \\(n_2\\) opciones (posiblemente dependiendo de la primera elección, pero siempre con exactamente \\(n_2\\) opciones disponibles), y así sucesivamente hasta \\(n_k\\) opciones, el número total de objetos distintos que se pueden construir es \\(n_1n_2\cdots n_k\\).*
+**Proposición 3.2 (regla del producto).** *Si \\(A\\) y \\(B\\) son conjuntos finitos, el producto cartesiano \\(A\times B=\\{(a,b):a\in A,b\in B\\}\\) satisface \\(|A\times B|=|A|\cdot|B|\\). Más generalmente, si un objeto se construye eligiendo sucesivamente un elemento de un conjunto de \\(n_1\\) opciones, luego uno de \\(n_2\\) opciones (posiblemente dependiendo de la primera elección, pero siempre con exactamente \\(n_2\\) opciones disponibles), y así sucesivamente hasta \\(n_k\\) opciones, el número total de objetos distintos que se pueden construir es \\(n_1n_2\cdots n_k\\).*
 
 Estas dos reglas —aparentemente triviales— son la base lógica de **todos** los argumentos de conteo de esta sección; las tomamos como axiomáticas (son, de hecho, consecuencia directa de los axiomas de Peano vía la definición recursiva de suma y producto).
 
@@ -42,7 +42,7 @@ El principio del palomar, pese a su simplicidad, es sorprendentemente potente; s
 **Teorema 3.6.** *El número de subconjuntos de tamaño \\(k\\) de un conjunto de \\(n\\) elementos (\\(0\le k\le n\\)) es*
 \\[ \binom{n}{k} = \frac{n!}{k!(n-k)!}. \\]
 
-*Demostración.* Cada subconjunto de tamaño \\(k\\) da lugar a exactamente \\(k!\\) permutaciones parciales distintas (las \\(k!\\) formas de ordenar sus elementos), y toda permutación parcial de tamaño \\(k\\) proviene de exactamente un subconjunto de esta manera. Por la Proposición 3.2 (regla del producto, en su forma de "conteo doble"), \\(P(n,k) = \binom{n}{k}\cdot k!\\), de donde \\(\binom{n}{k}=P(n,k)/k! = \dfrac{n!}{(n-k)!\,k!}\\). \\(\blacksquare\\)
+*Demostración.* Cada subconjunto de tamaño \\(k\\) da lugar a exactamente \\(k!\\) permutaciones parciales distintas (las \\(k!\\) formas de ordenar sus elementos), y toda permutación parcial de tamaño \\(k\\) proviene de exactamente un subconjunto de esta manera. Por la Proposición 3.2 (regla del producto, en su forma de "conteo doble"), \\(P(n,k) = \binom{n}{k}\cdot k!\\), de donde \\(\binom{n}{k}=P(n,k)/k! = \dfrac{n!}{(n-k)!\\,k!}\\). \\(\blacksquare\\)
 
 **Proposición 3.7 (propiedades elementales de \\(\binom{n}{k}\\)).**
 
@@ -54,7 +54,7 @@ El principio del palomar, pese a su simplicidad, es sorprendentemente potente; s
 
 La observación (iii) —que un cociente de factoriales sea siempre entero— es, de hecho, un resultado aritmético no trivial si se intenta demostrar directamente por manipulación de exponentes de primos (véase el Ejercicio 15 de esta unidad, que pide precisamente esa demostración alternativa usando la fórmula de Legendre para el exponente de un primo en \\(n!\\)); la demostración combinatoria dada arriba lo evita por completo, y es un buen ejemplo de cómo un argumento de conteo puede sustituir económicamente a un cálculo aritmético.
 
-**Ejemplo 3.8.** El número de manos posibles de póker (5 cartas de una baraja de 52) es \\(\binom{52}{5} = \dfrac{52!}{5!\,47!} = 2\,598\,960\\).
+**Ejemplo 3.8.** El número de manos posibles de póker (5 cartas de una baraja de 52) es \\(\binom{52}{5} = \dfrac{52!}{5!\\,47!} = 2\\,598\\,960\\).
 
 **Proposición 3.9 (Teorema del binomio).** *Para todo \\(n\ge0\\) y cualesquiera \\(x,y\\) (en un anillo conmutativo, en particular en \\(\mathbb{Z}\\)),*
 \\[ (x+y)^n = \sum_{k=0}^n \binom{n}{k}x^{n-k}y^k. \\]

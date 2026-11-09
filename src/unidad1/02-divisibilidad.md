@@ -31,7 +31,7 @@ La propiedad (ii), con \\(x,y\\) enteros arbitrarios, se usará constantemente y
 ## Criterios elementales de divisibilidad
 
 Como primera aplicación, obtenemos justificaciones rigurosas de las reglas de divisibilidad aprendidas en la escuela básica. Escribamos un entero positivo \\(n\\) en notación decimal como
-\\[ n = a_r 10^r + a_{r-1}10^{r-1} + \dots + a_1 10 + a_0, \qquad a_i \in \{0,\dots,9\}. \\]
+\\[ n = a_r 10^r + a_{r-1}10^{r-1} + \dots + a_1 10 + a_0, \qquad a_i \in \\{0,\dots,9\\}. \\]
 
 **Proposición 1.10 (Criterios de divisibilidad por 2, 5 y 10).** *\\(n\\) es divisible por \\(2\\) (resp. \\(5\\), \\(10\\)) si y solo si su última cifra \\(a_0\\) lo es.*
 
@@ -50,7 +50,7 @@ El siguiente resultado —el más usado de todo el curso— garantiza que la div
 *Al entero \\(q\\) se le llama el **cociente** y a \\(r\\) el **residuo** de la división de \\(a\\) entre \\(b\\).*
 
 *Demostración (existencia).* Consideremos el conjunto
-\\[ S = \{a - bk : k \in \mathbb{Z}\} \cap \mathbb{N}. \\]
+\\[ S = \\{a - bk : k \in \mathbb{Z}\\} \cap \mathbb{N}. \\]
 Veamos primero que \\(S \neq \emptyset\\). Si \\(a \ge 0\\), tomando \\(k=0\\) obtenemos \\(a \in S\\). Si \\(a < 0\\), tomando \\(k = a\\) (nótese \\(a<0\\)) obtenemos \\(a - ba = a(1-b) \ge 0\\) porque \\(a<0\\) y \\(1-b \le 0\\) (pues \\(b \ge 1\\)) hacen que el producto de dos no-positivos... revisemos con cuidado: como \\(b \geq 1\\), tenemos \\(1-b\le 0\\); y \\(a<0\\); el producto de un negativo por un no-positivo es no-negativo, luego \\(a - ba = a(1-b) \ge 0\\), así que \\(a - ba \in S\\). En cualquier caso \\(S \neq \emptyset\\).
 
 Por el Principio del Buen Orden, \\(S\\) tiene un elemento mínimo \\(r = a - bq\\), para cierto \\(q \in \mathbb{Z}\\), con \\(r \ge 0\\). Afirmamos que \\(r < b\\). Si no, \\(r \ge b\\), y entonces \\(r - b = a - b(q+1) \ge 0\\) sería un elemento de \\(S\\) estrictamente menor que \\(r\\) (pues \\(b>0\\)), contradiciendo la minimalidad de \\(r\\). Luego \\(0 \le r < b\\), y \\(a = bq+r\\), como se quería.

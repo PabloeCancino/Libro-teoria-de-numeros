@@ -5,13 +5,13 @@
 1. Demuestre que si \\(a\equiv b\pmod n\\), entonces \\(\gcd(a,n)=\gcd(b,n)\\).
 2. Encuentre el residuo de \\(2^{50}\\) al dividirse entre \\(7\\), trabajando directamente con congruencias (sin usar todavía el Teorema de Euler o Fermat).
 3. Demuestre el criterio de divisibilidad por 7 basado en congruencias: describa y justifique un método práctico (puede no ser tan simple como los de 3, 9 u 11).
-4. Verifique, usando la prueba del nueve y del once simultáneamente (Ejemplo 5.6), si el producto \\(4127\times2856=11\,786\,712\\) puede ser correcto.
-5. Determine todos los sistemas completos de residuos módulo 5 de la forma \\(\{0,\pm a,\pm b\}\\) con \\(0<a<b<5\\).
+4. Verifique, usando la prueba del nueve y del once simultáneamente (Ejemplo 5.6), si el producto \\(4127\times2856=11\\,786\\,712\\) puede ser correcto.
+5. Determine todos los sistemas completos de residuos módulo 5 de la forma \\(\\{0,\pm a,\pm b\\}\\) con \\(0<a<b<5\\).
 6. Demuestre la Proposición 5.7 sin usar la Proposición 1.19(vii), sino directamente a partir de la definición y del Teorema Fundamental de la Aritmética (comparando exponentes de primos).
 
 ## Sección 5.2 — Sistemas reducidos y Teorema de Euler
 
-7. Encuentre un sistema reducido de residuos módulo 18 distinto del conjunto canónico \\(\{a\in\{1,\dots,18\}:\gcd(a,18)=1\}\\).
+7. Encuentre un sistema reducido de residuos módulo 18 distinto del conjunto canónico \\(\\{a\in\\{1,\dots,18\\}:\gcd(a,18)=1\\}\\).
 8. Calcule el residuo de \\(7^{222}\\) al dividirse entre \\(15\\), usando el Teorema de Euler.
 9. Encuentre los dos últimos dígitos de \\(7^{300}\\).
 10. Demuestre que si \\(\gcd(a,n)=1\\), el **orden** de \\(a\\) módulo \\(n\\) (el menor entero positivo \\(k\\) tal que \\(a^k\equiv1\pmod n\\)) siempre divide a \\(\varphi(n)\\). (Sugerencia: use el algoritmo de la división para escribir \\(\varphi(n)=qk+r\\) y analice \\(a^r\\).)

@@ -2,11 +2,11 @@
 
 ## Definición y multiplicatividad
 
-**Definición.** La **función de Möbius** \\(\mu:\mathbb{Z}^+\to\{-1,0,1\}\\) se define como:
+**Definición.** La **función de Möbius** \\(\mu:\mathbb{Z}^+\to\\{-1,0,1\\}\\) se define como:
 \\[
 \mu(n) = \begin{cases}
-1 & \text{si } n=1,\\
-0 & \text{si } n \text{ tiene algún factor primo repetido (i.e., } p^2\mid n \text{ para algún primo } p\text{)},\\
+1 & \text{si } n=1,\\\\
+0 & \text{si } n \text{ tiene algún factor primo repetido (i.e., } p^2\mid n \text{ para algún primo } p\text{)},\\\\
 (-1)^r & \text{si } n=p_1p_2\cdots p_r \text{ es producto de } r \text{ primos distintos.}
 \end{cases}
 \\]
@@ -22,11 +22,11 @@ Un entero se llama **libre de cuadrados** si no es divisible por \\(p^2\\) para 
 ## La propiedad fundamental de μ
 
 **Teorema 4.22.** *Para todo \\(n\ge1\\),*
-\\[ \sum_{d\mid n}\mu(d) = \begin{cases}1 & \text{si } n=1,\\ 0 & \text{si } n>1.\end{cases} \\]
+\\[ \sum_{d\mid n}\mu(d) = \begin{cases}1 & \text{si } n=1,\\\\ 0 & \text{si } n>1.\end{cases} \\]
 
 *Demostración.* Para \\(n=1\\), la suma tiene un solo término, \\(\mu(1)=1\\).
 
-Para \\(n>1\\), sea \\(n=p_1^{e_1}\cdots p_r^{e_r}\\) su factorización en primos (\\(r\ge1\\)). Los únicos divisores \\(d\\) de \\(n\\) con \\(\mu(d)\ne0\\) son los productos de subconjuntos **distintos** de \\(\{p_1,\dots,p_r\}\\) (es decir, los divisores libres de cuadrados de \\(n\\)); un tal \\(d\\), producto de \\(k\\) de estos primos, aporta \\(\mu(d)=(-1)^k\\), y hay \\(\binom rk\\) subconjuntos de tamaño \\(k\\). Por tanto,
+Para \\(n>1\\), sea \\(n=p_1^{e_1}\cdots p_r^{e_r}\\) su factorización en primos (\\(r\ge1\\)). Los únicos divisores \\(d\\) de \\(n\\) con \\(\mu(d)\ne0\\) son los productos de subconjuntos **distintos** de \\(\\{p_1,\dots,p_r\\}\\) (es decir, los divisores libres de cuadrados de \\(n\\)); un tal \\(d\\), producto de \\(k\\) de estos primos, aporta \\(\mu(d)=(-1)^k\\), y hay \\(\binom rk\\) subconjuntos de tamaño \\(k\\). Por tanto,
 \\[ \sum_{d\mid n}\mu(d) = \sum_{k=0}^r \binom rk(-1)^k = (1-1)^r = 0, \\]
 usando el Teorema del binomio (Proposición 3.9, con \\(x=1,y=-1\\), como en la Proposición 3.15) y que \\(r\ge1\\). \\(\blacksquare\\)
 
@@ -39,11 +39,11 @@ Es instructivo notar que este teorema tiene una segunda demostración inmediata 
 decimos que \\(g\\) es la **suma sobre divisores** de \\(f\\).
 
 **Teorema 4.23 (Fórmula de inversión de Möbius).** *Si \\(g(n)=\sum_{d\mid n}f(d)\\) para todo \\(n\ge1\\), entonces*
-\\[ f(n) = \sum_{d\mid n}\mu(d)\,g(n/d) = \sum_{d\mid n}\mu(n/d)\,g(d). \\]
+\\[ f(n) = \sum_{d\mid n}\mu(d)\\,g(n/d) = \sum_{d\mid n}\mu(n/d)\\,g(d). \\]
 
 *Demostración.* Calculamos directamente, intercambiando el orden de sumación (ambas sumas dobles recorren, de manera equivalente, todos los pares \\((d,e)\\) con \\(d\mid n\\) y \\(e\mid (n/d)\\), lo cual —vía el Corolario 2.13, comparando exponentes de primos— equivale exactamente a recorrer los pares \\((d,e)\\) con \\(de\mid n\\)):
 \\[
-\sum_{d\mid n}\mu(d)\,g(n/d) = \sum_{d\mid n}\mu(d)\sum_{e\mid (n/d)}f(e) = \sum_{de\mid n}\mu(d)f(e) = \sum_{e\mid n}f(e)\sum_{d\mid(n/e)}\mu(d).
+\sum_{d\mid n}\mu(d)\\,g(n/d) = \sum_{d\mid n}\mu(d)\sum_{e\mid (n/d)}f(e) = \sum_{de\mid n}\mu(d)f(e) = \sum_{e\mid n}f(e)\sum_{d\mid(n/e)}\mu(d).
 \\]
 Por el Teorema 4.22, la suma interior \\(\sum_{d\mid(n/e)}\mu(d)\\) vale \\(1\\) si \\(n/e=1\\) (es decir, \\(e=n\\)) y \\(0\\) en cualquier otro caso. Por tanto, de toda la suma exterior sobrevive únicamente el término \\(e=n\\), dando \\(f(n)\cdot1=f(n)\\). \\(\blacksquare\\)
 
@@ -56,10 +56,10 @@ usando la multiplicatividad de \\(f\\) en el segundo paso. \\(\blacksquare\\)
 ## Aplicación: una segunda demostración de la fórmula de φ
 
 **Corolario 4.25.** *Para todo \\(n\ge1\\),*
-\\[ \varphi(n) = \sum_{d\mid n}\mu(d)\,\frac nd = n\sum_{d\mid n}\frac{\mu(d)}d. \\]
+\\[ \varphi(n) = \sum_{d\mid n}\mu(d)\\,\frac nd = n\sum_{d\mid n}\frac{\mu(d)}d. \\]
 
 *Demostración.* Por el Teorema 4.17 (identidad de Gauss), \\(n=\sum_{d\mid n}\varphi(d)\\), es decir, con la notación de esta sección, \\(g(n)=n\\) es la suma sobre divisores de \\(f=\varphi\\). Por la fórmula de inversión de Möbius (Teorema 4.23),
-\\[ \varphi(n) = \sum_{d\mid n}\mu(d)\,g(n/d) = \sum_{d\mid n}\mu(d)\cdot\frac nd. \qquad\blacksquare \\]
+\\[ \varphi(n) = \sum_{d\mid n}\mu(d)\\,g(n/d) = \sum_{d\mid n}\mu(d)\cdot\frac nd. \qquad\blacksquare \\]
 
 **Ejemplo 4.26.** Para \\(n=12\\) (divisores \\(1,2,3,4,6,12\\), con \\(\mu(1)=1,\mu(2)=-1,\mu(3)=-1,\mu(4)=0,\mu(6)=1,\mu(12)=0\\)):
 \\[ \varphi(12) = \mu(1)\cdot12+\mu(2)\cdot6+\mu(3)\cdot4+\mu(4)\cdot3+\mu(6)\cdot2+\mu(12)\cdot1 = 12-6-4+0+2+0=4, \\]

@@ -4,9 +4,9 @@ A lo largo del libro se usa la siguiente notación estándar, salvo indicación 
 
 | Símbolo | Significado |
 |---|---|
-| \\(\mathbb{N}\\) | Conjunto de los números naturales. Se usará \\(\mathbb{N} = \{0, 1, 2, 3, \dots\}\\), señalando explícitamente cuándo se excluye el cero. |
+| \\(\mathbb{N}\\) | Conjunto de los números naturales. Se usará \\(\mathbb{N} = \\{0, 1, 2, 3, \dots\\}\\), señalando explícitamente cuándo se excluye el cero. |
 | \\(\mathbb{Z}\\) | Conjunto de los números enteros. |
-| \\(\mathbb{Z}^+\\) | Conjunto de los enteros positivos, \\(\{1, 2, 3, \dots\}\\). |
+| \\(\mathbb{Z}^+\\) | Conjunto de los enteros positivos, \\(\\{1, 2, 3, \dots\\}\\). |
 | \\(\mathbb{Q}\\), \\(\mathbb{R}\\), \\(\mathbb{C}\\) | Números racionales, reales y complejos. |
 | \\(a \mid b\\) | "\\(a\\) divide a \\(b\\)": existe \\(c \in \mathbb{Z}\\) tal que \\(b = ac\\). |
 | \\(a \nmid b\\) | \\(a\\) no divide a \\(b\\). |
