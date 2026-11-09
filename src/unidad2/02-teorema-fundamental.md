@@ -34,7 +34,7 @@ Esta caracterización explica de inmediato la identidad \\(\gcd(a,b)\cdot\mathrm
 
 **Ejemplo 2.15.** Con \\(a=2^3\cdot3^2\cdot5=360\\) y \\(b=2\cdot3^3\cdot7=378\\), se obtiene \\(\gcd(a,b)=2^{\min(3,1)}3^{\min(2,3)}5^{\min(1,0)}7^{\min(0,1)}=2^1\cdot3^2=18\\), y \\(\mathrm{mcm}(a,b)=2^3\cdot3^3\cdot5\cdot7=7560\\). (Verificación: \\(18\cdot7560=136080=360\cdot378\\). ✓)
 
-**Corolario 2.16 (raíces y potencias de coprimos).** *Si \\(\gcd(a,b)=1\\) y \\(ab=c^k\\) para algún entero \\(k\ge1\\), entonces \\(a\\) y \\(b\\) son, cada uno, la \\(k\\)-ésima potencia de un entero.*
+**Corolario 2.16 (raíces y potencias de coprimos).** *Si \\(a,b\in\mathbb{Z}^+\\), \\(\gcd(a,b)=1\\) y \\(ab=c^k\\) para algún entero \\(k\ge1\\), entonces \\(a\\) y \\(b\\) son, cada uno, la \\(k\\)-ésima potencia de un entero.*
 
 *Demostración.* Sea \\(p\\) un primo cualquiera, con exponente \\(e\\) en \\(a\\), \\(f\\) en \\(b\\) y \\(g\\) en \\(c\\) (posiblemente cero). Como \\(\gcd(a,b)=1\\), por la Proposición 2.6, ningún primo divide a la vez a \\(a\\) y a \\(b\\), así que al menos uno de \\(e,f\\) es cero. Como \\(ab=c^k\\), comparando exponentes de \\(p\\) en ambos lados (Teorema 2.11): \\(e+f=kg\\). Si \\(f=0\\), entonces \\(e=kg\\), múltiplo de \\(k\\); si \\(e=0\\), entonces \\(f=kg\\), también múltiplo de \\(k\\). En cualquier caso, cada primo aparece en \\(a\\) (y en \\(b\\)) con exponente múltiplo de \\(k\\), lo que significa exactamente que \\(a\\) y \\(b\\) son potencias \\(k\\)-ésimas perfectas. \\(\blacksquare\\)
 

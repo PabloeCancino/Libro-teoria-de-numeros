@@ -14,7 +14,7 @@ Esta es la bibliografía consignada en el programa oficial de la unidad de apren
 - HARDY, G. H. y WRIGHT, E. M. *An Introduction to the Theory of Numbers*. Clarendon Press, 1979. El tratado clásico en inglés; virtualmente toda la Unidad 6 tiene su origen aquí.
 - NARKIEWICZ, W. *The Development of Prime Number Theory*. Springer, 2000.
 - NEWMAN, D. J. *Analytic Number Theory*. Springer, 2000.
-- PÉREZ SEGUÍ, M. L. *Teoría de Números*. Universidad Autónoma de México, Instituto de Matemáticas, 2003. Texto en español de nivel muy cercano al de este libro; recomendado como lectura paralela para las Unidades 1 a 5.
+- PÉREZ SEGUÍ, M. L. *Teoría de Números*. Universidad Nacional Autónoma de México, Instituto de Matemáticas, 2003. Texto en español de nivel muy cercano al de este libro; recomendado como lectura paralela para las Unidades 1 a 5.
 
 ## Textos elementales complementarios (Unidades 1–5)
 

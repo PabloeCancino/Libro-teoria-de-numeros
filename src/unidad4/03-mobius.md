@@ -49,7 +49,7 @@ Por el Teorema 4.22, la suma interior \\(\sum_{d\mid(n/e)}\mu(d)\\) vale \\(1\\)
 
 **Proposición 4.24 (multiplicatividad se preserva bajo sumas de divisores).** *Si \\(f\\) es multiplicativa, entonces \\(g(n)=\sum_{d\mid n}f(d)\\) también es multiplicativa.*
 
-*Demostración.* Sea \\(\gcd(m,n)=1\\). Como se argumentó en la demostración del Teorema 4.23, todo divisor de \\(mn\\) se escribe únicamente como \\(d_1d_2\\) con \\(d_1\mid m\\), \\(d_2\mid n\\), y \\(\gcd(d_1,d_2)=1\\) (pues \\(\gcd(m,n)=1\\)). Entonces
+*Demostración.* Sea \\(\gcd(m,n)=1\\). Como se argumentó en la demostración de la Proposición 4.2, todo divisor de \\(mn\\) se escribe únicamente como \\(d_1d_2\\) con \\(d_1\mid m\\), \\(d_2\mid n\\), y \\(\gcd(d_1,d_2)=1\\) (pues \\(\gcd(m,n)=1\\)). Entonces
 \\[ g(mn) = \sum_{d_1\mid m}\sum_{d_2\mid n} f(d_1d_2) = \sum_{d_1\mid m}\sum_{d_2\mid n}f(d_1)f(d_2) = \Big(\sum_{d_1\mid m}f(d_1)\Big)\Big(\sum_{d_2\mid n}f(d_2)\Big) = g(m)g(n), \\]
 usando la multiplicatividad de \\(f\\) en el segundo paso. \\(\blacksquare\\)
 
@@ -63,6 +63,6 @@ usando la multiplicatividad de \\(f\\) en el segundo paso. \\(\blacksquare\\)
 
 **Ejemplo 4.26.** Para \\(n=12\\) (divisores \\(1,2,3,4,6,12\\), con \\(\mu(1)=1,\mu(2)=-1,\mu(3)=-1,\mu(4)=0,\mu(6)=1,\mu(12)=0\\)):
 \\[ \varphi(12) = \mu(1)\cdot12+\mu(2)\cdot6+\mu(3)\cdot4+\mu(4)\cdot3+\mu(6)\cdot2+\mu(12)\cdot1 = 12-6-4+0+2+0=4, \\]
-coincidiendo con el cálculo directo del Ejemplo 4.18 (\\(\varphi(12)=4\\)). Esta fórmula, expandiendo el producto \\(n\prod_i(1-1/p_i)\\) del Teorema 4.14, es en realidad la misma identidad escrita de otra forma: el desarrollo del producto \\(\prod_i(1-1/p_i)\\) produce exactamente los términos \\(\mu(d)/d\\) para cada divisor libre de cuadrados \\(d\\) de \\(n\\) (Ejercicio 12).
+coincidiendo con el cálculo directo del Ejemplo 4.18 (\\(\varphi(12)=4\\)). Esta fórmula, expandiendo el producto \\(n\prod_i(1-1/p_i)\\) del Teorema 4.14, es en realidad la misma identidad escrita de otra forma: el desarrollo del producto \\(\prod_i(1-1/p_i)\\) produce exactamente los términos \\(\mu(d)/d\\) para cada divisor libre de cuadrados \\(d\\) de \\(n\\) (Ejercicio 19).
 
-La técnica de inversión de Möbius, aunque introducida aquí en el contexto puramente aritmético de esta unidad, es una instancia particular de un principio combinatorio mucho más general —el **principio de inclusión-exclusión**— y reaparece de manera esencial en la teoría analítica de números (por ejemplo, en la fórmula de Mertens y en la demostración analítica del Teorema de los Números Primos), un tema que se esboza brevemente en la Unidad 6.
+La técnica de inversión de Möbius, aunque introducida aquí en el contexto puramente aritmético de esta unidad, es una instancia particular de un principio combinatorio mucho más general —el **principio de inclusión-exclusión**— y reaparece de manera esencial en la teoría analítica de números (por ejemplo, en la fórmula de Mertens y en la demostración analítica del Teorema de los Números Primos), un tema propio de cursos posteriores.

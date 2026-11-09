@@ -26,7 +26,7 @@
 ## Sección 2.3 — Factorización
 
 18. Factorice \\(n=8\\,051\\) usando el método de Fermat (Proposición 2.22).
-19. Factorice \\(n=1\\,000\\,003\\) por división por tanteo, aprovechando la Proposición 2.24 para reducir los candidatos.
-20. Explique por qué el método de Fermat es ineficiente para factorizar \\(n=2\cdot 9\\,973\\) (con \\(9\\,973\\) primo), y factorice este número por división por tanteo en su lugar.
+19. Determine si \\(n=1\\,000\\,003\\) es primo por división por tanteo, aprovechando la Proposición 2.24 para reducir los candidatos.
+20. Explique por qué el método de Fermat no es aplicable para factorizar \\(n=2\cdot 9\\,973\\) (con \\(9\\,973\\) primo), y factorice este número por división por tanteo en su lugar.
 21. Demuestre que si \\(n\\) es compuesto y no tiene ningún factor primo menor o igual que \\(\sqrt[3]{n}\\), entonces \\(n\\) es producto de exactamente dos primos (posiblemente iguales).
 22. (Proyecto computacional opcional.) Implemente en un lenguaje de su elección la criba de Eratóstenes y el método de factorización de Fermat, y compare experimentalmente sus tiempos de ejecución para factorizar varios números de 6 a 8 dígitos con factores cercanos entre sí, y con factores muy separados.

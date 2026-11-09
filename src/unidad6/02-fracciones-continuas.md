@@ -41,9 +41,9 @@ lo que da una recursión de signo alternante que, junto con el caso base, produc
 *y los convergentes \\(h_n/k_n\\) (definidos como arriba) satisfacen \\(h_n/k_n \to \alpha\\) cuando \\(n\to\infty\\), con*
 \\[ \left|\alpha-\frac{h_n}{k_n}\right| < \frac1{k_nk_{n+1}}. \\]
 
-*Idea de la demostración.* El proceso nunca termina precisamente porque \\(\alpha\\) es irracional (si terminara, \\(\alpha\\) sería racional, por el mismo cálculo del Teorema 6.9). La estimación del error se obtiene de la identidad del Corolario 6.13 aplicada a los convergentes consecutivos, junto con el hecho de que \\(\alpha\\) está siempre "entre" dos convergentes consecutivos. \\(\blacksquare\\)
+*Idea de la demostración.* El proceso nunca termina precisamente porque \\(\alpha\\) es irracional (si terminara, \\(\alpha\\) sería racional, por el mismo cálculo del Teorema 6.9). La estimación del error se obtiene de la identidad de la Proposición 6.12 aplicada a los convergentes consecutivos, junto con el hecho de que \\(\alpha\\) está siempre "entre" dos convergentes consecutivos. \\(\blacksquare\\)
 
-**Proposición 6.15 (mejor aproximación).** *Cada convergente \\(h_n/k_n\\) es la mejor aproximación racional a \\(\alpha\\) entre todas las fracciones con denominador \\(\le k_n\\): si \\(p/q\\) con \\(q\le k_n\\) satisface \\(|\alpha-p/q|<|\alpha-h_n/k_n|\\), entonces \\(p/q=h_n/k_n\\).*
+**Proposición 6.15 (mejor aproximación).** *Cada convergente \\(h_n/k_n\\) es la mejor aproximación racional a \\(\alpha\\) entre todas las fracciones con denominador \\(\le k_n\\): para \\(n\ge1\\), si \\(p/q\neq h_n/k_n\\) con \\(0<q\le k_n\\), entonces \\(|\alpha-p/q|>|\alpha-h_n/k_n|\\).* (Para \\(n=0\\) puede fallar: con \\(\varphi=[1;1,1,\dots]\\), la fracción \\(2/1\\) está más cerca de \\(\varphi\\) que \\(h_0/k_0=1\\).)
 
 Esta propiedad —que hace de las fracciones continuas la herramienta óptima para aproximar irracionales por racionales— explica su uso histórico en calendarios y engranajes astronómicos, y es la razón de que \\(\frac{22}7\\) y \\(\frac{355}{113}\\) (convergentes de \\(\pi=[3;7,15,1,292,\dots]\\)) sean aproximaciones tan eficientes.
 

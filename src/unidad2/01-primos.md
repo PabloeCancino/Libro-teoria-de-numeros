@@ -28,7 +28,7 @@ Como \\(N>1\\), por la Proposición 2.1, \\(N\\) tiene un divisor primo \\(p\\).
 
 **Observación 2.4.** El número \\(N=p_1\cdots p_r+1\\) no es necesariamente primo; lo único que garantiza la demostración es que *algún* divisor primo de \\(N\\) no está en la lista original. Por ejemplo, \\(2\cdot3\cdot5\cdot7\cdot11\cdot13+1=30031=59\cdot509\\) es compuesto, y en efecto ni 59 ni 509 estaban en la lista de los primeros seis primos.
 
-La demostración de Euclides admite numerosas variantes que producen infinitud de primos en *progresiones aritméticas* particulares; ya vimos dos casos (primos de la forma \\(4k+1\\) y \\(8k+5\\)) en los Corolarios 2.20 y 2.21 del borrador de congruencias, que retomaremos formalmente en la Unidad 5. El resultado general —el **Teorema de Dirichlet**, que afirma que toda progresión aritmética \\(a, a+n, a+2n,\dots\\) con \\(\gcd(a,n)=1\\) contiene infinitos primos— requiere herramientas de teoría analítica de números y queda fuera del alcance de este curso, aunque se menciona en la Unidad 6.
+La demostración de Euclides admite numerosas variantes que producen infinitud de primos en *progresiones aritméticas* particulares; dos casos (primos de la forma \\(4k+1\\) y \\(8k+5\\)) se demostrarán en los Corolarios 5.20 y 5.21 de la Unidad 5. El resultado general —el **Teorema de Dirichlet**, que afirma que toda progresión aritmética \\(a, a+n, a+2n,\dots\\) con \\(\gcd(a,n)=1\\) contiene infinitos primos— requiere herramientas de teoría analítica de números y queda fuera del alcance de este curso.
 
 **Proposición 2.5 (una cota elemental sobre la distribución de primos).** *Si \\(p_n\\) denota el \\(n\\)-ésimo primo (en orden creciente, \\(p_1=2,p_2=3,\dots\\)), entonces \\(p_n \le 2^{2^{n-1}}\\).*
 

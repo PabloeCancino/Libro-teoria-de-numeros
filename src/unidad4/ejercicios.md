@@ -9,7 +9,7 @@
 5. Verifique que \\(M_{13}=2^{13}-1=8191\\) es primo (por ensayo de divisiones, usando el Corolario 2.8 de la Unidad 2) y calcule el número perfecto asociado mediante el Teorema 4.8.
 6. Demuestre que todo número perfecto par mayor que 6 es de la forma \\(9k+1\\) para algún entero \\(k\ge1\\) (con la posible excepción de \\(n=6\\); verifique este caso aparte). (Sugerencia: analice \\(2^{k-1}(2^k-1) \bmod 9\\) según el residuo de \\(k\\) módulo 6, o busque un argumento más directo.)
 7. Demuestre que ningún número perfecto puede ser un cuadrado perfecto.
-8. Investigue (o demuestre, si se siente cómodo) por qué todo número perfecto impar, de existir, debe ser mayor que \\(10^{300}\\) es una afirmación fuera del alcance elemental; en su lugar, demuestre la afirmación más modesta de que ningún número perfecto impar puede ser divisible por 105 sin verificar antes ciertas condiciones (explore qué se puede decir usando solamente la multiplicatividad de σ).
+8. Investigue (o demuestre, si se siente cómodo) por qué todo número perfecto impar, de existir, debe ser mayor que \\(10^{1500}\\) es una afirmación fuera del alcance elemental; en su lugar, demuestre la afirmación más modesta de que ningún número perfecto impar puede ser divisible por 105 sin verificar antes ciertas condiciones (explore qué se puede decir usando solamente la multiplicatividad de σ).
 
 ## Sección 4.2 — La función φ de Euler
 

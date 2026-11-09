@@ -30,7 +30,7 @@
 20. Sean \\(a,b\\) enteros positivos con \\(\gcd(a,b)=d\\). Demuestre que \\(\gcd(a/d,b/d)=1\\) sin usar la identidad de Bézout (es decir, directamente de la definición de mcd).
 21. Calcule \\(\mathrm{mcm}(24,36)\\) y \\(\mathrm{mcm}(17,25)\\).
 22. Demuestre que para tres enteros positivos \\(a,b,c\\), en general **no** se cumple que \\(\gcd(a,b,c)\cdot\mathrm{mcm}(a,b,c)=abc\\). Encuentre un contraejemplo explícito.
-23. Demuestre que si \\(a\mid c\\), \\(b \mid c\\), entonces \\(\mathrm{mcm}(a,b) \mid c\\) (esto generaliza la Proposición 1.24(iv), que ya lo prueba; dé aquí una demostración alternativa usando el Teorema 1.21).
+23. Demuestre que si \\(a\mid c\\), \\(b \mid c\\), entonces \\(\mathrm{mcm}(a,b) \mid c\\) (esto es la Proposición 1.24(iv); dé aquí una demostración alternativa usando el Teorema 1.21).
 
 ## Sección 1.4 — Algoritmo de Euclides y teorema de Bézout
 

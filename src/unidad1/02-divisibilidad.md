@@ -51,7 +51,7 @@ El siguiente resultado —el más usado de todo el curso— garantiza que la div
 
 *Demostración (existencia).* Consideremos el conjunto
 \\[ S = \\{a - bk : k \in \mathbb{Z}\\} \cap \mathbb{N}. \\]
-Veamos primero que \\(S \neq \emptyset\\). Si \\(a \ge 0\\), tomando \\(k=0\\) obtenemos \\(a \in S\\). Si \\(a < 0\\), tomando \\(k = a\\) (nótese \\(a<0\\)) obtenemos \\(a - ba = a(1-b) \ge 0\\) porque \\(a<0\\) y \\(1-b \le 0\\) (pues \\(b \ge 1\\)) hacen que el producto de dos no-positivos... revisemos con cuidado: como \\(b \geq 1\\), tenemos \\(1-b\le 0\\); y \\(a<0\\); el producto de un negativo por un no-positivo es no-negativo, luego \\(a - ba = a(1-b) \ge 0\\), así que \\(a - ba \in S\\). En cualquier caso \\(S \neq \emptyset\\).
+Veamos primero que \\(S \neq \emptyset\\). Si \\(a \ge 0\\), tomando \\(k=0\\) obtenemos \\(a \in S\\). Si \\(a < 0\\), tomando \\(k = a\\) (nótese \\(a<0\\)) obtenemos \\(a - ba = a(1-b) \ge 0\\), pues \\(a<0\\) y \\(1-b \le 0\\) (ya que \\(b \ge 1\\)), y el producto de un negativo por un no positivo es no negativo; así que \\(a - ba \in S\\). En cualquier caso \\(S \neq \emptyset\\).
 
 Por el Principio del Buen Orden, \\(S\\) tiene un elemento mínimo \\(r = a - bq\\), para cierto \\(q \in \mathbb{Z}\\), con \\(r \ge 0\\). Afirmamos que \\(r < b\\). Si no, \\(r \ge b\\), y entonces \\(r - b = a - b(q+1) \ge 0\\) sería un elemento de \\(S\\) estrictamente menor que \\(r\\) (pues \\(b>0\\)), contradiciendo la minimalidad de \\(r\\). Luego \\(0 \le r < b\\), y \\(a = bq+r\\), como se quería.
 
@@ -61,7 +61,7 @@ Por el Principio del Buen Orden, \\(S\\) tiene un elemento mínimo \\(r = a - bq
 
 **Ejemplo 1.14.** Al dividir \\(a=-37\\) entre \\(b=5\\): buscamos \\(q,r\\) con \\(-37 = 5q+r\\), \\(0\le r<5\\). Como \\(-37 = 5\cdot(-8) + 3\\), se tiene \\(q=-8\\), \\(r=3\\) (nótese que **no** es correcto tomar \\(q=-7\\), \\(r=-2\\), ya que el residuo debe ser no negativo).
 
-**Definición.** Dados \\(a \in \mathbb{Z}\\), \\(b \in \mathbb{Z}^+\\), decimos que \\(a\\) es **par** si el residuo de dividir \\(a\\) entre 2 es 0, e **impar** si el residuo es 1. Por el Teorema 1.12, todo entero es de una y solo una de estas dos clases: \\(a = 2k\\) (par) o \\(a=2k+1\\) (impar), para un único \\(k \in \mathbb{Z}\\).
+**Definición.** Dado \\(a \in \mathbb{Z}\\), decimos que \\(a\\) es **par** si el residuo de dividir \\(a\\) entre 2 es 0, e **impar** si el residuo es 1. Por el Teorema 1.12, todo entero es de una y solo una de estas dos clases: \\(a = 2k\\) (par) o \\(a=2k+1\\) (impar), para un único \\(k \in \mathbb{Z}\\).
 
 **Ejemplo 1.15 (una aplicación típica del algoritmo de la división).** Demostremos que el cuadrado de todo entero es de la forma \\(4k\\) o \\(4k+1\\) (nunca \\(4k+2\\) ni \\(4k+3\\)).
 

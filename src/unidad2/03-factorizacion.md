@@ -31,7 +31,7 @@ Cuando \\(n\\) es impar y tiene dos factores relativamente cercanos entre sí, e
 
 Luego \\(y=21\\), y \\(n=(80+21)(80-21)=101\cdot59\\). En efecto, \\(101\\) y \\(59\\) son ambos primos, así que esta es la factorización completa de \\(5959\\).
 
-El método de Fermat es especialmente eficaz cuando \\(n\\) tiene un factor cercano a \\(\sqrt n\\) (pocos pasos), pero degenera al peor caso posible —tan lento como la división por tanteo, o peor— cuando los factores de \\(n\\) están muy separados (por ejemplo, si \\(n\\) es primo, o si \\(n=2\cdot m\\) con \\(m\\) primo grande, aunque en tal caso conviene primero extraer el factor 2). En la práctica, los algoritmos de factorización modernos (curvas elípticas de Lenstra, criba cuadrática, criba general del cuerpo de números) combinan y refinan estas ideas básicas.
+El método de Fermat es especialmente eficaz cuando \\(n\\) tiene un factor cercano a \\(\sqrt n\\) (pocos pasos), pero degenera al peor caso posible —tan lento como la división por tanteo, o peor— cuando los factores de \\(n\\) están muy separados (por ejemplo, si \\(n\\) es primo); además, el método no es aplicable si \\(n\equiv2\pmod4\\), porque tal \\(n\\) nunca es diferencia de dos cuadrados: en ese caso hay que extraer primero el factor 2. En la práctica, los algoritmos de factorización modernos (curvas elípticas de Lenstra, criba cuadrática, criba general del cuerpo de números) combinan y refinan estas ideas básicas.
 
 ## Criterios de primalidad basados en la criba
 

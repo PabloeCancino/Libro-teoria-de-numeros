@@ -8,7 +8,7 @@
 4. Demuestre, usando el principio del palomar, que entre cualesquiera 13 personas, al menos dos cumplen años en el mismo mes.
 5. Demuestre que entre cualesquiera \\(n+1\\) enteros elegidos del conjunto \\(\\{1,2,\dots,2n\\}\\), siempre hay dos que son primos relativos. (Sugerencia: agrupe en \\(n\\) parejas de consecutivos \\(\\{2k-1,2k\\}\\).)
 6. Demuestre que \\(\binom{2n}{n}\\) es siempre par para \\(n\ge1\\).
-7. Use el Corolario 2.16 (o un argumento de exponentes de primos) para dar una demostración *aritmética* (no combinatoria) de que \\(\binom nk\\) es siempre un entero.
+7. Use el Corolario 2.13 y la fórmula de Legendre para el exponente de un primo en \\(n!\\) para dar una demostración *aritmética* (no combinatoria) de que \\(\binom nk\\) es siempre un entero.
 
 ## Sección 3.2 — Triángulo de Pascal
 

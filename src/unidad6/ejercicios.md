@@ -11,7 +11,7 @@
 ## Sección 6.2 — Fracciones continuas
 
 6. Calcule la fracción continua de \\(\frac{355}{113}\\) usando el algoritmo de Euclides, y compare con la fracción continua de \\(\pi\\) mencionada en el texto.
-7. Calcule los primeros cinco convergentes de \\(\sqrt3=[1;\overline{1,2}]\\) y verifique la fórmula del Corolario 6.13 para dos de ellos consecutivos.
+7. Calcule los primeros cinco convergentes de \\(\sqrt3=[1;\overline{1,2}]\\) y verifique la fórmula de la Proposición 6.12 para dos de ellos consecutivos.
 8. Encuentre la solución fundamental de la ecuación de Pell \\(x^2-3y^2=1\\) usando los convergentes de \\(\sqrt3\\).
 9. Demuestre que la fracción continua de un número racional siempre termina (esto ya se demostró en el Teorema 6.9; dé aquí una segunda justificación explícita usando el Principio del Buen Orden aplicado a la sucesión de denominadores).
 10. (Desafío.) Investigue y explique, sin necesariamente dar una demostración completa, por qué el número áureo \\(\varphi=\frac{1+\sqrt5}2=[1;1,1,1,\dots]\\) es, en un sentido preciso, "el número irracional peor aproximable por racionales" (relaciónelo con la sucesión de Fibonacci del Ejercicio 6 de la Unidad 1).

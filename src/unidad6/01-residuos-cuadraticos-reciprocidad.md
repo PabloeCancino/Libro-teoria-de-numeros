@@ -45,7 +45,7 @@ Esto no es más que una reformulación del Teorema 5.19, ahora demostrada de for
 
 ## La Ley de Reciprocidad Cuadrática
 
-El siguiente es uno de los teoremas más célebres de toda la teoría de números elemental —Gauss, quien lo llamó *theorema aureum* ("teorema dorado"), publicó ocho demostraciones distintas a lo largo de su vida.
+El siguiente es uno de los teoremas más célebres de toda la teoría de números elemental —Gauss, quien lo llamó *theorema aureum* ("teorema dorado"), dio ocho demostraciones distintas (seis publicadas en vida y dos halladas entre sus papeles póstumos).
 
 **Teorema 6.7 (Ley de Reciprocidad Cuadrática, Gauss, 1796).** *Sean \\(p,q\\) primos impares distintos. Entonces*
 \\[ \left(\frac pq\right)\left(\frac qp\right) = (-1)^{\frac{p-1}2\cdot\frac{q-1}2}. \\]

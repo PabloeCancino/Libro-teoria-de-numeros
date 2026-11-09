@@ -16,7 +16,7 @@ Estas dos reglas —aparentemente triviales— son la base lógica de **todos** 
 
 *Demostración.* Por reducción al absurdo: si cada una de las \\(n\\) cajas recibiera a lo más un objeto, el número total de objetos distribuidos sería, por la Proposición 3.1, a lo más \\(n\\), contradiciendo que hay \\(n+1\\) objetos. \\(\blacksquare\\)
 
-El principio del palomar, pese a su simplicidad, es sorprendentemente potente; se usará, por ejemplo, en la demostración del Lema 5.4 de la Unidad 5 (sobre sistemas completos de residuos) y reaparecerá en la Unidad 6 al estudiar fracciones continuas.
+El principio del palomar, pese a su simplicidad, es sorprendentemente potente; se usará, por ejemplo, en la demostración del Lema 5.4 de la Unidad 5 (sobre sistemas completos de residuos).
 
 ## Permutaciones
 
@@ -52,7 +52,7 @@ El principio del palomar, pese a su simplicidad, es sorprendentemente potente; s
 
 *Demostración.* (i) y (ii) son inmediatas de la fórmula del Teorema 3.6, o del argumento combinatorio (elegir los \\(k\\) elementos de un subconjunto es equivalente a elegir los \\(n-k\\) que se excluyen). (iii) es consecuencia directa de que \\(\binom{n}{k}\\) **cuenta** un conjunto de objetos (los subconjuntos de tamaño \\(k\\)), y por tanto es, tautológicamente, un entero no negativo —aunque la fórmula \\(n!/(k!(n-k)!)\\) no lo haga evidente algebraicamente. \\(\blacksquare\\)
 
-La observación (iii) —que un cociente de factoriales sea siempre entero— es, de hecho, un resultado aritmético no trivial si se intenta demostrar directamente por manipulación de exponentes de primos (véase el Ejercicio 15 de esta unidad, que pide precisamente esa demostración alternativa usando la fórmula de Legendre para el exponente de un primo en \\(n!\\)); la demostración combinatoria dada arriba lo evita por completo, y es un buen ejemplo de cómo un argumento de conteo puede sustituir económicamente a un cálculo aritmético.
+La observación (iii) —que un cociente de factoriales sea siempre entero— es, de hecho, un resultado aritmético no trivial si se intenta demostrar directamente por manipulación de exponentes de primos (véase el Ejercicio 7 de esta unidad, que pide precisamente esa demostración alternativa usando la fórmula de Legendre para el exponente de un primo en \\(n!\\)); la demostración combinatoria dada arriba lo evita por completo, y es un buen ejemplo de cómo un argumento de conteo puede sustituir económicamente a un cálculo aritmético.
 
 **Ejemplo 3.8.** El número de manos posibles de póker (5 cartas de una baraja de 52) es \\(\binom{52}{5} = \dfrac{52!}{5!\\,47!} = 2\\,598\\,960\\).
 

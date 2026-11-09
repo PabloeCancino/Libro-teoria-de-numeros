@@ -22,7 +22,7 @@ Recíprocamente, se verifica directamente que para cualquier \\(t\in\mathbb{Z}\\
 
 El Teorema 1.27 (Bézout, vía el algoritmo de Euclides extendido) proporciona el método práctico para hallar la solución particular \\((x_0,y_0)\\): se calcula \\(\gcd(a,b)=d=ax_0'+by_0'\\), y si \\(d\mid c\\), digamos \\(c=dm\\), entonces \\((x_0,y_0)=(mx_0',my_0')\\) es una solución particular.
 
-**Ejemplo 1.34.** Resolvamos \\(72x+28y=8\\) (este es precisamente el sistema que retomaremos en el Ejemplo 5.10 de la Unidad 5, al estudiar congruencias lineales). Primero, \\(\gcd(72,28)\\): usando Euclides,
+**Ejemplo 1.34.** Resolvamos \\(72x+28y=8\\) (este es precisamente el sistema que retomaremos en el Ejemplo 5.26 de la Unidad 5, al estudiar congruencias lineales). Primero, \\(\gcd(72,28)\\): usando Euclides,
 \\[ 72=28\cdot2+16,\quad 28=16\cdot1+12,\quad 16=12\cdot1+4,\quad 12=4\cdot3+0, \\]
 así que \\(d=\gcd(72,28)=4\\). Como \\(4 \mid 8\\), la ecuación tiene solución. Con Euclides extendido (subiendo desde el penúltimo paso):
 \\[ 4=16-12, \quad 12=28-16, \implies 4=16-(28-16)=2\cdot16-28, \\]
