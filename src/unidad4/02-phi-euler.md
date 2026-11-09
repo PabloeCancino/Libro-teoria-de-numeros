@@ -53,7 +53,7 @@ donde la última igualdad se obtiene reindexando la suma (a cada divisor \\(d\\)
 
 **Ejemplo 4.18.** Para \\(n=12\\), los divisores son \\(1,2,3,4,6,12\\), con \\(\varphi(1)=1,\varphi(2)=1,\varphi(3)=2,\varphi(4)=2,\varphi(6)=2,\varphi(12)=4\\). Suma: \\(1+1+2+2+2+4=12\\). ✓
 
-Esta identidad puede demostrarse alternativamente usando la **función de Möbius** (Sección 4.3) y el principio de **inversión de Möbius**, del cual es uno de los ejemplos más clásicos; ambas demostraciones —la combinatoria de arriba y la basada en Möbius— se recomiendan comparar (Ejercicio 15).
+Esta identidad puede demostrarse alternativamente usando la **función de Möbius** (Sección 4.3) y el principio de **inversión de Möbius**, del cual es uno de los ejemplos más clásicos; conviene comparar ambas demostraciones: la combinatoria de arriba y la basada en Möbius (Sección 4.3).
 
 **Proposición 4.19 (φ(n) es par para \\(n\ge3\\)).** *Si \\(n\ge3\\), entonces \\(\varphi(n)\\) es par.*
 

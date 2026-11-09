@@ -12,7 +12,7 @@ donde \\(a_0\in\mathbb{Z}\\) y \\(a_1,\dots,a_k\in\mathbb{Z}^+\\).
 
 *Demostración.* Sea \\(x=p/q\\), \\(q>0\\). Escribamos la división euclídea \\(p=a_0q+r_0\\), \\(0\le r_0<q\\) (Teorema 1.12), es decir, \\(x=a_0+\frac{r_0}q\\). Si \\(r_0=0\\), \\(x=a_0=[a_0]\\) y terminamos. Si no, sea \\(x_1=q/r_0>1\\), de modo que \\(x=a_0+\frac1{x_1}\\); repetimos el proceso con \\(x_1\\) en lugar de \\(x\\). Como los residuos sucesivos \\(q>r_0>r_1>\cdots\ge0\\) forman una sucesión estrictamente decreciente de enteros no negativos (exactamente como en el algoritmo de Euclides, Teorema 1.25), el proceso termina en un número finito de pasos, dando \\(x=[a_0;a_1,\dots,a_k]\\). \\(\blacksquare\\)
 
-**Ejemplo 6.10.** Calculemos la fracción continua de \\(x=\frac{67}{29}\\), usando exactamente el mismo algoritmo de Euclides del Ejemplo 1.26:
+**Ejemplo 6.10.** Calculemos la fracción continua de \\(x=\frac{67}{29}\\), usando exactamente el mismo algoritmo de Euclides de la Sección 1.4 (como en el Ejemplo 1.26):
 \\[ 67=2\cdot29+9,\quad29=3\cdot9+2,\quad9=4\cdot2+1,\quad2=2\cdot1+0. \\]
 Los cocientes sucesivos dan \\(\frac{67}{29}=[2;3,4,2]\\). Verificación: \\([2;3,4,2]=2+\cfrac1{3+\cfrac1{4+\cfrac12}}=2+\cfrac1{3+\cfrac1{9/2}}=2+\cfrac1{3+2/9}=2+\cfrac1{29/9}=2+\frac9{29}=\frac{67}{29}\\). ✓
 

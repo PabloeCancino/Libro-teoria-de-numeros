@@ -22,7 +22,7 @@
 
 (iii) Si \\(a \mid b\\) con \\(b \ne 0\\), existe \\(k \ne 0\\) (pues \\(b \ne 0\\)) con \\(b = ak\\). Como \\(k\\) es un entero no nulo, \\(|k| \ge 1\\), luego \\(|b| = |a||k| \ge |a|\\).
 
-(iv) Si \\(a = \pm b\\) es inmediato que \\(a \mid b\\) y \\(b \mid a\\). Recíprocamente, si \\(a \mid b\\) y \\(b \mid a\\): si \\(a = 0\\), entonces \\(b \mid 0\\) da automáticamente, pero \\(a \mid b\\) con \\(a=0\\) fuerza \\(b=0=a\\). Si \\(a \ne 0\\) (y por tanto \\(b \ne 0\\), pues si \\(b=0\\) entonces de \\(a\mid b\\) trivial pero \\(b \mid a\\) fuerza \\(a=0\\)), la parte (iii) aplicada dos veces da \\(|a| \le |b|\\) y \\(|b| \le |a|\\), luego \\(|a|=|b|\\), es decir \\(a = \pm b\\).
+(iv) Si \\(a = \pm b\\) es inmediato que \\(a \mid b\\) y \\(b \mid a\\). Recíprocamente, supongamos \\(a \mid b\\) y \\(b \mid a\\). Si \\(a = 0\\), de \\(a \mid b\\) se sigue \\(b = 0 = a\\); análogamente, si \\(b = 0\\), de \\(b \mid a\\) se sigue \\(a = 0 = b\\). Si \\(a \ne 0\\) y \\(b \ne 0\\), la parte (iii) aplicada dos veces da \\(|a| \le |b|\\) y \\(|b| \le |a|\\), luego \\(|a|=|b|\\), es decir \\(a = \pm b\\).
 
 (v) Si \\(b = ak\\), entonces \\(bc = (ac)k\\), luego \\(ac \mid bc\\). Recíprocamente, si \\(c \ne 0\\) y \\(bc = (ac)k\\) para algún \\(k\\), entonces \\(c(b - ak) = 0\\), y como \\(c \ne 0\\) en un dominio íntegro como \\(\mathbb{Z}\\), se sigue \\(b = ak\\), es decir \\(a \mid b\\). \\(\blacksquare\\)
 

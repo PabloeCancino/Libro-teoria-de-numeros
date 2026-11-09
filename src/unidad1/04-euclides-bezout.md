@@ -72,7 +72,7 @@ La última fila con residuo no nulo da \\(21 = 252\cdot(-2)+105\cdot 5\\), coinc
 
 ## Consecuencias inmediatas
 
-**Corolario 1.30.** *\\(\gcd(a,b)=1\\) si y solo si el algoritmo de Euclides aplicado a \\(a,b\\) termina con residuo \\(1\\) antes del residuo \\(0\\).*
+**Corolario 1.30.** *Si \\(b > 1\\), entonces \\(\gcd(a,b)=1\\) si y solo si el algoritmo de Euclides aplicado a \\(a,b\\) termina con residuo \\(1\\) antes del residuo \\(0\\).* (La hipótesis \\(b > 1\\) es necesaria: si \\(b = 1\\), el algoritmo termina en un paso con residuo \\(0\\), aunque \\(\gcd(a,1) = 1\\).)
 
 **Corolario 1.31 (Eficiencia del algoritmo de Euclides).** *El número de pasos del algoritmo de Euclides aplicado a \\(a>b>0\\) es \\(O(\log b)\\).*
 
